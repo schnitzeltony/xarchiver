@@ -1,8 +1,8 @@
 # Galician translation of xarchiver
-# Copyright (C) 2008-2009 Leandro Regueiro
+# Copyright (C) 2006, 2008, 2009, 2010 Leandro Regueiro
 # This file is distributed under the same license as the xfce package.
 #
-# Leandro Regueiro <leandro.regueiro@gmail.com>, 2006, 2008, 2009.
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2006, 2008, 2009, 2010.
 #
 # Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
 # colaborar connosco, podes atopar máis información en <http://trasno.net>
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: xarchiver 0.4.2rc2\n"
 "Report-Msgid-Bugs-To: colossus73@gmail.com\n"
 "POT-Creation-Date: 2009-08-20 15:20+0200\n"
-"PO-Revision-Date: 2010-01-07 20:47+0100\n"
+"PO-Revision-Date: 2010-02-08 21:44+0100\n"
 "Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Comprimido"
 
 #: ../src/7zip.c:57
 msgid "Attr"
-msgstr ""
+msgstr "Atri"
 
 #: ../src/7zip.c:57
 #: ../src/arj.c:48
@@ -93,7 +93,7 @@ msgstr "Actualizar e engadir"
 
 #: ../src/add_dialog.c:105
 msgid "This option will add any new files and update any files which have been modified since the archive was last created/modified"
-msgstr "Esta opción ha engadir calquera novo ficheiro e ha actualizar calquera ficheiros que fora modificado dende a última vez que se creou/modificou o arquivo"
+msgstr "Esta opción ha engadir calquera novo ficheiro e ha actualizar calquera ficheiros que se modificara dende a última vez que se creou/modificou o arquivo"
 
 #: ../src/add_dialog.c:108
 msgid "Freshen and replace"
@@ -113,7 +113,7 @@ msgstr "Crear un arquivo sólido"
 
 #: ../src/add_dialog.c:121
 msgid "In a solid archive the files are grouped together featuring a better compression ratio"
-msgstr "Nun arquivo sólido os ficheiros póñense xuntos para acadar unha mellor taxa de compresión"
+msgstr "Nun arquivo sólido os ficheiros póñense xuntos para acadar unha mellor proporción de compresión"
 
 #: ../src/add_dialog.c:124
 msgid "Delete files after adding"
@@ -163,7 +163,7 @@ msgstr "5 = compresión predeterminada, 7 = compresión máxima"
 #: ../src/add_dialog.c:371
 #: ../src/main.c:228
 msgid "Can't add files to the archive:"
-msgstr "Non se poden engadir ficheiros ó arquivo:"
+msgstr "Non se poden engadir ficheiros ao arquivo:"
 
 #: ../src/add_dialog.c:371
 msgid "You haven't selected any files to add!"
@@ -225,7 +225,7 @@ msgstr "Permisos"
 #: ../src/gzip.c:61
 #: ../src/tar.c:54
 msgid "Owner/Group"
-msgstr "Dono/Grupo"
+msgstr "Dono/grupo"
 
 #: ../src/bzip2.c:187
 #: ../src/deb.c:45
@@ -240,7 +240,7 @@ msgstr "Tamaño"
 
 #: ../src/window.c:60
 msgid "An error occurred!"
-msgstr "Ocorreu un erro!"
+msgstr "Produciuse un erro!"
 
 #: ../src/window.c:60
 msgid "Please check the 'Store archiver output' option to see it."
@@ -256,7 +256,7 @@ msgstr "Produciuse un erro ao acceder ao arquivo:"
 
 #: ../src/window.c:254
 msgid "Save the archive as"
-msgstr "Gardar o arquivo coma"
+msgstr "Gardar o arquivo como"
 
 #: ../src/window.c:313
 #, c-format
@@ -265,11 +265,11 @@ msgstr "Non se puido abrir o ficheiro \"%s\":"
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
-msgstr "Non se recoñece o formato do arquivo!"
+msgstr "Non se recoñeceu o formato do arquivo!"
 
 #: ../src/window.c:339
 msgid "Sorry,this archive format is not supported:"
-msgstr "Sentímolo, este formato de arquivo non está soportado:"
+msgstr "Este formato de arquivo non está soportado:"
 
 #: ../src/window.c:339
 msgid "the proper archiver is not installed!"
@@ -280,9 +280,8 @@ msgid "Can't allocate memory for the archive structure:"
 msgstr "Non se puido asignar a memoria para a estructura do arquivo:"
 
 #: ../src/window.c:353
-#, fuzzy
 msgid "Operation aborted!"
-msgstr "Non se puido executa-la operación"
+msgstr "Operación abortada!"
 
 #: ../src/window.c:378
 msgid "Opening archive,please wait..."
@@ -317,7 +316,7 @@ msgstr ""
 #: ../src/window.c:488
 #, c-format
 msgid "Compressed   size: "
-msgstr "Tamaño comprimido: "
+msgstr "Tamaño   comprimido: "
 
 #: ../src/window.c:495
 #, c-format
@@ -359,9 +358,8 @@ msgid "Select \"New\" to create or \"Open\" to open an archive"
 msgstr "Seleccione  \"Novo\" para crear ou \"Abrir\" para abrir un arquivo"
 
 #: ../src/window.c:722
-#, fuzzy
 msgid "You are about to delete entries from the archive."
-msgstr "Non se poden extraer ficheiros do arquivo:"
+msgstr "Está a piques de eliminar entradas do arquivo."
 
 #: ../src/window.c:722
 msgid "Are you sure you want to do this?"
@@ -382,14 +380,13 @@ msgid "Please select the 7zCon.sfx module"
 msgstr "Seleccione o módulo 7zCon.sfx"
 
 #: ../src/window.c:980
-#, fuzzy
 msgid "A GTK+2 only lightweight archive manager"
-msgstr "Un xestor de arquivos só en GTK+2"
+msgstr "Un xestor de arquivos lixeiro só en GTK+2"
 
 #: ../src/window.c:983
 msgid "translator-credits"
 msgstr ""
-"Leandro Regueiro <leandro.regueiro@gmail.com>, 2008.\n"
+"Leandro Regueiro <leandro.regueiro@gmail.com>, 2006, 2008, 2009, 2010.\n"
 "\n"
 "Proxecto Trasno http://trasno.net"
 
@@ -406,7 +403,7 @@ msgstr "Abrir un arquivo"
 #: ../src/extract_dialog.c:90
 #: ../src/new_dialog.c:62
 msgid "All files"
-msgstr "Tódolos ficheiros"
+msgstr "Todos os ficheiros"
 
 #: ../src/window.c:1060
 #: ../src/new_dialog.c:67
@@ -483,7 +480,7 @@ msgstr "Non se puido extraer!"
 #: ../src/extract_dialog.c:650
 #: ../src/interface.c:1392
 msgid "Sorry,I could not perform the operation!"
-msgstr "Sentímolo, non se puido realizar a operación!"
+msgstr "Non se puido realizar a operación!"
 
 #: ../src/window.c:1789
 #: ../src/window.c:1801
@@ -532,7 +529,7 @@ msgstr "Non definiu o programa para abrir este ficheiro!"
 
 #: ../src/window.c:1948
 msgid "Failed to launch the application!"
-msgstr "Produciuse un erro ao iniciar a aplicación!"
+msgstr "Produciuse un erro ao iniciar o aplicativo!"
 
 #: ../src/window.c:2000
 msgid "Comment"
@@ -583,7 +580,7 @@ msgstr "Extraer os ficheiros ca ruta completa"
 
 #: ../src/extract_dialog.c:129
 msgid "The archive's directory structure is recreated in the extraction directory"
-msgstr "A estrutura de directorios do arquivo vólvese crear no directorio de extracción"
+msgstr "A estrutura de directorios do arquivo créase de novo no directorio de extracción"
 
 #: ../src/extract_dialog.c:132
 msgid "Touch files"
@@ -657,9 +654,10 @@ msgstr "Nome do arquivo"
 msgid "Path"
 msgstr "Ruta"
 
+# extracción múltiple quizais
 #: ../src/extract_dialog.c:407
 msgid "Multi-Extract"
-msgstr ""
+msgstr "Extracción múltiple"
 
 #: ../src/extract_dialog.c:478
 msgid "Extract to dir \"Archive Name\""
@@ -667,7 +665,7 @@ msgstr "Extraer ao directorio \"Nome do arquivo\""
 
 #: ../src/extract_dialog.c:479
 msgid "This option extracts archives in directories named with the archive names"
-msgstr "Esta opción extrae os arquivos en directorios co mesmo nome có arquivo"
+msgstr "Esta opción extrae os arquivos en directorios co mesmo nome que o arquivo"
 
 #: ../src/extract_dialog.c:483
 msgid "Destination dirs:"
@@ -691,15 +689,15 @@ msgstr "Seleccione o directorio de destino"
 
 #: ../src/extract_dialog.c:715
 msgid "Can't multi-extract archives:"
-msgstr ""
+msgstr "Non se puido realizar a extracción múltiple de arquivos:"
 
 #: ../src/extract_dialog.c:715
 msgid "You haven't added any of them!"
-msgstr "Non engadiu ningún deles!"
+msgstr "Non engadiu ningún!"
 
 #: ../src/extract_dialog.c:723
 msgid "Please fill the \"Extract to\" field!"
-msgstr "Complete o campo \"Extraer en\"!"
+msgstr "Cubra o campo \"Extraer en\"!"
 
 #: ../src/extract_dialog.c:754
 msgid "Some errors occurred:"
@@ -718,19 +716,16 @@ msgid "_Archive"
 msgstr "_Arquivo"
 
 #: ../src/interface.c:92
-#, fuzzy
 msgid "_List as"
-msgstr "Mostrar como"
+msgstr "_Listar como"
 
 #: ../src/interface.c:103
-#, fuzzy
 msgid "_Text file"
-msgstr "Ficheiro de texto"
+msgstr "Ficheiro de _texto"
 
 #: ../src/interface.c:110
-#, fuzzy
 msgid "_HTML file"
-msgstr "Ficheiro HTML"
+msgstr "Ficheiro _HTML"
 
 #: ../src/interface.c:127
 msgid "_Test"
@@ -749,9 +744,8 @@ msgid "A_dd"
 msgstr "Enga_dir"
 
 #: ../src/interface.c:194
-#, fuzzy
 msgid "Re_name"
-msgstr "Renomear"
+msgstr "Re_nomear"
 
 #: ../src/interface.c:208
 msgid "Make SF_X"
@@ -759,12 +753,11 @@ msgstr "Converter en SF_X"
 
 #: ../src/interface.c:218
 msgid "_Multi-Extract"
-msgstr ""
+msgstr "_Extracción múltiple"
 
 #: ../src/interface.c:223
-#, fuzzy
 msgid "Archive _comment"
-msgstr "Comentario do arquivo"
+msgstr "_Comentario do arquivo"
 
 #: ../src/interface.c:237
 msgid "Select _all"
@@ -776,7 +769,7 @@ msgstr "_Deseleccionar todo"
 
 #: ../src/interface.c:253
 msgid "Select _by pattern"
-msgstr "Seleccionar co _patrón"
+msgstr "Seleccionar mediante _patrón"
 
 #: ../src/interface.c:264
 msgid "Cmd-line outp_ut"
@@ -795,14 +788,12 @@ msgid "_Help"
 msgstr "A_xuda"
 
 #: ../src/interface.c:304
-#, fuzzy
 msgid "_Contents"
-msgstr "Contido"
+msgstr "_Contido"
 
 #: ../src/interface.c:313
-#, fuzzy
 msgid "_Donate"
-msgstr "Doar"
+msgstr "_Doar"
 
 #: ../src/interface.c:333
 #: ../src/new_dialog.c:50
@@ -986,7 +977,7 @@ msgstr "arquivo"
 
 #: ../src/main.c:66
 msgid "Multi-extract archives"
-msgstr ""
+msgstr "Extración múltiple de arquivos"
 
 #: ../src/main.c:67
 msgid "filenames"
@@ -1060,7 +1051,7 @@ msgstr "Examinar"
 
 #: ../src/open-with-dlg.c:311
 msgid "Select an application"
-msgstr "Seleccionar unha aplicación"
+msgstr "Seleccionar un aplicativo"
 
 #: ../src/new_dialog.c:55
 msgid "Cr_eate"
@@ -1076,7 +1067,7 @@ msgstr "Escolla o tipo de arquivo a crear"
 
 #: ../src/new_dialog.c:112
 msgid "Add the archive extension to the filename"
-msgstr "Engadir a extensión de arquivo ó nome de ficheiro"
+msgstr "Engadir a extensión de arquivo ao nome de ficheiro"
 
 #: ../src/new_dialog.c:159
 #, c-format
@@ -1154,7 +1145,7 @@ msgstr "Mostrar o comentario do arquivo"
 
 #: ../src/pref_dialog.c:151
 msgid "If checked the archive comment is shown after the archive is loaded"
-msgstr "Se está marcada o comentario do arquivo hase mostrar despois de cargalo"
+msgstr "Se está marcada o comentario do arquivo hase mostrar despois de cargar o arquivo"
 
 #: ../src/pref_dialog.c:157
 msgid "Show archive tree sidebar"
@@ -1207,7 +1198,7 @@ msgstr "Permitir os subdirectorios ao arrastrar e soltar"
 
 #: ../src/pref_dialog.c:259
 msgid "This option includes the subdirectories when you add files with drag and drop"
-msgstr "Esta opción inclúe os subdirectorios cando engade ficheiros arrastrando e soltando"
+msgstr "Esta opción inclúe os subdirectorios cando se engaden ficheiros arrastrando e soltando"
 
 #: ../src/pref_dialog.c:264
 msgid ""
@@ -1219,11 +1210,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the directory to use"
-msgstr "Escolla o directorio que se vai usar"
+msgstr "Escoller o directorio que se vai usar"
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the application to use"
-msgstr "Escoller a aplicación a usar"
+msgstr "Escoller o aplicativo que se vai usar"
 
 #: ../src/rar.c:63
 msgid "CRC"
@@ -1250,7 +1241,7 @@ msgstr "Permiso"
 
 #: ../src/rpm.c:52
 msgid "Hard Link"
-msgstr ""
+msgstr "Ligazón dura"
 
 #: ../src/rpm.c:52
 msgid "Owner"
@@ -1262,7 +1253,7 @@ msgstr "Grupo"
 
 #: ../src/rpm.c:62
 msgid "Can't fseek to position 104:"
-msgstr ""
+msgstr "Non se puido executar fseek para a posición 104:"
 
 #: ../src/rpm.c:68
 #: ../src/rpm.c:84
@@ -1271,7 +1262,7 @@ msgstr "Non se puideron ler datos do ficheiro:"
 
 #: ../src/rpm.c:78
 msgid "Can't fseek in file:"
-msgstr ""
+msgstr "Non se puido executar fseek no ficheiro:"
 
 #: ../src/zip.c:49
 msgid "OS"
