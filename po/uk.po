@@ -161,9 +161,8 @@ msgid "Can't run the archiver executable:"
 msgstr "Неможливо запустити виконуваний архів:"
 
 #: ../src/archive.c:373
-#, fuzzy
 msgid "Can't create temporary directory:"
-msgstr "Неможливо створити тимчасову теку в /tmp:"
+msgstr "Неможливо створити тимчасову теку :"
 
 #: ../src/arj.c:48 ../src/gzip.c:78 ../src/lha.c:51 ../src/rar.c:63
 msgid "Ratio"
