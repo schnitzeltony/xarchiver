@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
@@ -902,7 +902,7 @@ msgstr ""
 
 #: ../src/main.c:67
 msgid "filenames"
-msgstr ""
+msgstr "ගොනු නාම"
 
 #: ../src/main.c:70
 msgid "Add the given files by asking the name of the archive and quits."
@@ -910,7 +910,7 @@ msgstr ""
 
 #: ../src/main.c:71
 msgid "file1 file2 file3 ... fileN"
-msgstr ""
+msgstr "ගොනුව1 ගොනුව2 ගොනුව3 ... ගොනුවN"
 
 #: ../src/main.c:74
 msgid "Add files to archive by asking their filenames and quits."
@@ -918,7 +918,7 @@ msgstr ""
 
 #: ../src/main.c:78
 msgid "Show version and exit"
-msgstr ""
+msgstr "අනුවාදය පෙන්නා ඉවත් වෙන්න"
 
 #: ../src/main.c:105
 msgid "[archive name]"
@@ -950,7 +950,7 @@ msgstr ""
 
 #: ../src/open-with-dlg.c:54
 msgid "Open the selected files with"
-msgstr ""
+msgstr "තේරූ ගොනු මේ සමඟ විවෘත කරන්න"
 
 #: ../src/open-with-dlg.c:83
 #, c-format
@@ -959,15 +959,15 @@ msgstr ""
 
 #: ../src/open-with-dlg.c:118
 msgid "Use a custom command:"
-msgstr ""
+msgstr "රිසි විධානයක් භාවිතා කරන්න:"
 
 #: ../src/open-with-dlg.c:126
 msgid "Browse"
-msgstr ""
+msgstr "ගවේශනය කරන්න"
 
 #: ../src/open-with-dlg.c:311
 msgid "Select an application"
-msgstr ""
+msgstr "යෙදුමක් තෝරන්න"
 
 #: ../src/new_dialog.c:55
 msgid "Cr_eate"
