@@ -1,6 +1,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Danishka Navin <danishka@gmail.com>, 2010.
 msgid ""
 msgstr ""
@@ -19,7 +19,7 @@ msgstr ""
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
 msgid "Original"
-msgstr ""
+msgstr "මුල්"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/gzip.c:78
 #: ../src/rar.c:63 ../src/zip.c:49
@@ -28,12 +28,12 @@ msgstr ""
 
 #: ../src/7zip.c:57
 msgid "Attr"
-msgstr ""
+msgstr "Attr"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:187 ../src/gzip.c:61
 #: ../src/rar.c:63 ../src/tar.c:54 ../src/zip.c:49
 msgid "Time"
-msgstr ""
+msgstr "වේලාව"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:187 ../src/gzip.c:61
 #: ../src/rar.c:63 ../src/rpm.c:52 ../src/tar.c:54 ../src/zip.c:49
@@ -42,36 +42,34 @@ msgstr "දිනය"
 
 #: ../src/add_dialog.c:36 ../src/interface.c:388
 msgid "Add files"
-msgstr ""
+msgstr "ගොනු එක් කරන්න"
 
 #: ../src/add_dialog.c:52
 msgid "Selection"
-msgstr ""
+msgstr "තේරීම"
 
 #: ../src/add_dialog.c:66
 msgid "File Paths: "
-msgstr ""
+msgstr "ගොනු පෙත්:"
 
 #: ../src/add_dialog.c:72
 msgid "Store full paths"
-msgstr ""
+msgstr "සම්පූර්ණ පෙත් ගබඩා කරන්න"
 
 #: ../src/add_dialog.c:76
 msgid "Do not store paths"
-msgstr ""
+msgstr "පෙත් ගබඩා කරන්න එපා"
 
 #: ../src/add_dialog.c:85
 msgid "Options"
-msgstr ""
+msgstr "අභිරුචි"
 
 #: ../src/add_dialog.c:103
 msgid "Update and add"
-msgstr ""
+msgstr "යාවත්කාල කරන්න සහ එක් කරන්න"
 
 #: ../src/add_dialog.c:105
-msgid ""
-"This option will add any new files and update any files which have been "
-"modified since the archive was last created/modified"
+msgid "This option will add any new files and update any files which have been modified since the archive was last created/modified"
 msgstr ""
 
 #: ../src/add_dialog.c:108
@@ -79,33 +77,28 @@ msgid "Freshen and replace"
 msgstr ""
 
 #: ../src/add_dialog.c:111
-msgid ""
-"This option affects the archive only if it has been modified more recently "
-"than the version already in the archive; unlike the update option it will "
-"not add files that are not already in the archive"
+msgid "This option affects the archive only if it has been modified more recently than the version already in the archive; unlike the update option it will not add files that are not already in the archive"
 msgstr ""
 
 #: ../src/add_dialog.c:115
 msgid "Include subdirectories"
-msgstr ""
+msgstr "උප බහලුම් ඇතුළත් කරන්න"
 
 #: ../src/add_dialog.c:119
 msgid "Create a solid archive"
 msgstr ""
 
 #: ../src/add_dialog.c:121
-msgid ""
-"In a solid archive the files are grouped together featuring a better "
-"compression ratio"
+msgid "In a solid archive the files are grouped together featuring a better compression ratio"
 msgstr ""
 
 #: ../src/add_dialog.c:124
 msgid "Delete files after adding"
-msgstr ""
+msgstr "ගොනු එක් කිරීමෙන් පසු මකන්න"
 
 #: ../src/add_dialog.c:128
 msgid "Actions: "
-msgstr ""
+msgstr "ක්‍රියා:"
 
 #: ../src/add_dialog.c:143
 msgid "Compression: "
@@ -414,9 +407,7 @@ msgstr ""
 
 #: ../src/window.c:1713 ../src/extract_dialog.c:341
 #, c-format
-msgid ""
-"You don't have the right permissions to extract the files to the directory "
-"\"%s\"."
+msgid "You don't have the right permissions to extract the files to the directory \"%s\"."
 msgstr ""
 
 #: ../src/window.c:1714 ../src/extract_dialog.c:342
@@ -517,8 +508,7 @@ msgid "Extract files with full path"
 msgstr ""
 
 #: ../src/extract_dialog.c:129
-msgid ""
-"The archive's directory structure is recreated in the extraction directory"
+msgid "The archive's directory structure is recreated in the extraction directory"
 msgstr ""
 
 #: ../src/extract_dialog.c:132
@@ -526,10 +516,7 @@ msgid "Touch files"
 msgstr ""
 
 #: ../src/extract_dialog.c:133
-msgid ""
-"When this option is used,tar leaves the data modification times of the files "
-"it extracts as the times when the files were extracted,instead of setting it "
-"to the times recorded in the archive"
+msgid "When this option is used,tar leaves the data modification times of the files it extracts as the times when the files were extracted,instead of setting it to the times recorded in the archive"
 msgstr ""
 
 #: ../src/extract_dialog.c:136
@@ -537,9 +524,7 @@ msgid "Freshen existing files"
 msgstr ""
 
 #: ../src/extract_dialog.c:137
-msgid ""
-"Extract only those files that already exist on disk and that are newer than "
-"the disk copies"
+msgid "Extract only those files that already exist on disk and that are newer than the disk copies"
 msgstr ""
 
 #: ../src/extract_dialog.c:141
@@ -547,10 +532,7 @@ msgid "Update existing files"
 msgstr ""
 
 #: ../src/extract_dialog.c:142
-msgid ""
-"This option performs the same function as the freshen one,extracting files "
-"that are newer than those with the same name on disk,and in addition it "
-"extracts those files that do not already exist on disk"
+msgid "This option performs the same function as the freshen one,extracting files that are newer than those with the same name on disk,and in addition it extracts those files that do not already exist on disk"
 msgstr ""
 
 #: ../src/extract_dialog.c:146
@@ -607,8 +589,7 @@ msgid "Extract to dir \"Archive Name\""
 msgstr ""
 
 #: ../src/extract_dialog.c:479
-msgid ""
-"This option extracts archives in directories named with the archive names"
+msgid "This option extracts archives in directories named with the archive names"
 msgstr ""
 
 #: ../src/extract_dialog.c:483
@@ -1128,8 +1109,7 @@ msgid "Allow subdirs with drag and drop"
 msgstr ""
 
 #: ../src/pref_dialog.c:259
-msgid ""
-"This option includes the subdirectories when you add files with drag and drop"
+msgid "This option includes the subdirectories when you add files with drag and drop"
 msgstr ""
 
 #: ../src/pref_dialog.c:264
@@ -1202,4 +1182,3 @@ msgstr ""
 #: ../xarchiver.desktop.in.h:2
 msgid "Archive manager"
 msgstr ""
-
