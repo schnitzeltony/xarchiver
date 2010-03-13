@@ -1,14 +1,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Danishka Navin <danishka@gmail.com>, 2010.
+# W.H. Kalpa Pathum <callkalpa@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: colossus73@gmail.com\n"
 "POT-Creation-Date: 2009-08-20 15:20+0200\n"
-"PO-Revision-Date: 2010-03-10 09:21+0530\n"
-"Last-Translator: Danishka Navin\n"
+"PO-Revision-Date: 2010-03-13 21:34+0530\n"
+"Last-Translator: W.H. Kalpa Pathum <callkalpa@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +216,7 @@ msgstr ""
 #: ../src/window.c:313
 #, c-format
 msgid "Can't open file \"%s\":"
-msgstr ""
+msgstr "\"%s\" ගොනුව විවෘත කිරීමට නොහැක:"
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
@@ -283,7 +284,7 @@ msgstr ""
 #: ../src/window.c:511
 #, c-format
 msgid "Comment:\n"
-msgstr ""
+msgstr "අදහස:\n"
 
 #: ../src/window.c:524
 #, c-format
@@ -420,7 +421,7 @@ msgstr ""
 
 #: ../src/window.c:1789 ../src/window.c:1801 ../src/interface.c:1385
 msgid "Can't perform this action:"
-msgstr ""
+msgstr "මෙම ක්‍රියාව සිදු කල නොහැක:"
 
 #: ../src/window.c:1789
 msgid "You have to install rar package!"
@@ -662,11 +663,11 @@ msgstr ""
 
 #: ../src/interface.c:161
 msgid "A_ction"
-msgstr ""
+msgstr "ක්‍රියාව (_c)"
 
 #: ../src/interface.c:168
 msgid "A_dd"
-msgstr ""
+msgstr "එක් කරන්න (_d)"
 
 #: ../src/interface.c:194
 msgid "Re_name"
@@ -726,7 +727,7 @@ msgstr ""
 
 #: ../src/interface.c:352
 msgid "Back"
-msgstr ""
+msgstr "ආපසු"
 
 #: ../src/interface.c:360
 msgid "Up"
@@ -742,7 +743,7 @@ msgstr ""
 
 #: ../src/interface.c:408
 msgid "Cancel current operation"
-msgstr ""
+msgstr "වත්මන් ක්‍රියාව අවලංගු කරන්න"
 
 #: ../src/interface.c:421
 msgid "Location:"
@@ -854,7 +855,7 @@ msgstr ""
 
 #: ../src/interface.c:1121
 msgid "Comment:"
-msgstr ""
+msgstr "අදහස:"
 
 #: ../src/interface.c:1128
 msgid "Number of files:"
@@ -988,7 +989,7 @@ msgstr ""
 #: ../src/new_dialog.c:159
 #, c-format
 msgid "\"%s\" is already open!"
-msgstr ""
+msgstr "\"%s\" දැනටමත් විවෘතව පවතී!"
 
 #: ../src/new_dialog.c:160
 msgid "Can't create a new archive:"
@@ -1120,11 +1121,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the directory to use"
-msgstr ""
+msgstr "භාවිතා කිරීමට බහලුම තෝරන්න"
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the application to use"
-msgstr ""
+msgstr "භාවිතා කිරීමට යෙදුම තෝරන්න"
 
 #: ../src/rar.c:63
 msgid "CRC"
@@ -1165,7 +1166,7 @@ msgstr ""
 
 #: ../src/rpm.c:68 ../src/rpm.c:84
 msgid "Can't read data from file:"
-msgstr ""
+msgstr "ගොනුවෙන් දත්ත කියවිය නොහැක:"
 
 #: ../src/rpm.c:78
 msgid "Can't fseek in file:"
@@ -1182,3 +1183,4 @@ msgstr ""
 #: ../xarchiver.desktop.in.h:2
 msgid "Archive manager"
 msgstr ""
+
