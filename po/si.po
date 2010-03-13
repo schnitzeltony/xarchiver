@@ -1049,11 +1049,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:144
 msgid "large"
-msgstr ""
+msgstr "විශාල"
 
 #: ../src/pref_dialog.c:145
 msgid "small"
-msgstr ""
+msgstr "කුඩා"
 
 #: ../src/pref_dialog.c:150
 msgid "Show archive comment"
@@ -1073,20 +1073,20 @@ msgstr ""
 
 #: ../src/pref_dialog.c:185
 msgid "Web browser to use:"
-msgstr ""
+msgstr "භාවිතා කිරීමට වෙබ් ගවේශකය:"
 
 #: ../src/pref_dialog.c:192 ../src/pref_dialog.c:205 ../src/pref_dialog.c:218
 #: ../src/pref_dialog.c:231 ../src/pref_dialog.c:244
 msgid "choose..."
-msgstr ""
+msgstr "තෝරන්න..."
 
 #: ../src/pref_dialog.c:198
 msgid "Open text files with:"
-msgstr ""
+msgstr "පෙළ ගොනු මේ සමඟ විවෘත කරන්න:"
 
 #: ../src/pref_dialog.c:211
 msgid "Open image files with:"
-msgstr ""
+msgstr "පින්තූර ගොනු මේ සමඟ විවෘත කරන්න:"
 
 #: ../src/pref_dialog.c:224
 msgid "Preferred temp directory:"
@@ -1094,7 +1094,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:230 ../src/pref_dialog.c:243
 msgid "/tmp"
-msgstr ""
+msgstr "/tmp"
 
 #: ../src/pref_dialog.c:237
 msgid "Preferred extract directory:"
@@ -1102,7 +1102,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:250
 msgid "Save window geometry"
-msgstr ""
+msgstr "කවුළු ජ්‍යාමිතිය සුරකින්න"
 
 #: ../src/pref_dialog.c:255
 msgid "Allow subdirs with drag and drop"
