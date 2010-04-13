@@ -582,7 +582,7 @@ msgstr "Введите пароль."
 
 #: ../src/extract_dialog.c:378
 msgid "Extracting files from archive,please wait..."
-msgstr "Удаляются файлы из архива, подождите..."
+msgstr "Извлекаются файлы из архива, подождите..."
 
 #: ../src/extract_dialog.c:395
 msgid "Archive Name"
