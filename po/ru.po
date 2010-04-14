@@ -53,7 +53,7 @@ msgstr "Добавить файлы"
 
 #: ../src/add_dialog.c:52
 msgid "Selection"
-msgstr "Выбор фалов"
+msgstr "Выбор файлов"
 
 #: ../src/add_dialog.c:66
 msgid "File Paths: "
