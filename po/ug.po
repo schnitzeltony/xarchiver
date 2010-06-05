@@ -21,12 +21,12 @@ msgstr ""
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
 msgid "Original"
-msgstr ""
+msgstr "ئەسلى"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/gzip.c:78
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Compressed"
-msgstr ""
+msgstr "پرېسلانغان"
 
 #: ../src/7zip.c:57
 msgid "Attr"
@@ -35,7 +35,7 @@ msgstr ""
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:187 ../src/gzip.c:61
 #: ../src/rar.c:63 ../src/tar.c:54 ../src/zip.c:49
 msgid "Time"
-msgstr ""
+msgstr "ۋاقىت"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:187 ../src/gzip.c:61
 #: ../src/rar.c:63 ../src/rpm.c:52 ../src/tar.c:54 ../src/zip.c:49
@@ -44,16 +44,16 @@ msgstr "چېسلا"
 
 #: ../src/add_dialog.c:36 ../src/interface.c:388
 msgid "Add files"
-msgstr ""
+msgstr "ھۆججەت قوشىدۇ"
 
 # Tab name in Add files dialog.
 #: ../src/add_dialog.c:52
 msgid "Selection"
-msgstr ""
+msgstr "تاللانما"
 
 #: ../src/add_dialog.c:66
 msgid "File Paths: "
-msgstr ""
+msgstr "ھۆججەت يولى: "
 
 #: ../src/add_dialog.c:72
 msgid "Store full paths"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../src/add_dialog.c:85
 msgid "Options"
-msgstr ""
+msgstr "تاللانما"
 
 #: ../src/add_dialog.c:103
 msgid "Update and add"
@@ -109,23 +109,23 @@ msgstr ""
 
 #: ../src/add_dialog.c:128
 msgid "Actions: "
-msgstr ""
+msgstr "مەشغۇلاتلار: "
 
 #: ../src/add_dialog.c:143
 msgid "Compression: "
-msgstr ""
+msgstr "پرېس "
 
 #: ../src/add_dialog.c:157 ../src/extract_dialog.c:152
 msgid "Password:"
-msgstr ""
+msgstr "ئىم:"
 
 #: ../src/add_dialog.c:167
 msgid "Encryption: "
-msgstr ""
+msgstr "شىفىرلاش "
 
 #: ../src/add_dialog.c:180
 msgid "_Add"
-msgstr ""
+msgstr "قوش(_A)"
 
 #: ../src/add_dialog.c:247
 msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
@@ -177,11 +177,11 @@ msgstr ""
 
 #: ../src/arj.c:48 ../src/gzip.c:78 ../src/lha.c:51 ../src/rar.c:63
 msgid "Ratio"
-msgstr ""
+msgstr "نىسپەت"
 
 #: ../src/arj.c:48
 msgid "Attributes"
-msgstr ""
+msgstr "خاسلىق"
 
 #: ../src/bzip2.c:187 ../src/gzip.c:61 ../src/lha.c:51 ../src/rpm.c:52
 #: ../src/tar.c:54
@@ -195,7 +195,7 @@ msgstr "ھوقۇقلىرى"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/gzip.c:61 ../src/tar.c:54
 msgid "Owner/Group"
-msgstr ""
+msgstr "ئىگىسى/گۇرۇپپىسى"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/extract_dialog.c:395
 #: ../src/gzip.c:61 ../src/gzip.c:78 ../src/lha.c:51 ../src/rpm.c:52
@@ -205,7 +205,7 @@ msgstr "چوڭلۇقى"
 
 #: ../src/window.c:60
 msgid "An error occurred!"
-msgstr ""
+msgstr "خاتالىق كۆرۈلدى!"
 
 #: ../src/window.c:60
 msgid "Please check the 'Store archiver output' option to see it."
@@ -223,12 +223,12 @@ msgstr ""
 # Extracting files to /tmp
 #: ../src/window.c:254
 msgid "Save the archive as"
-msgstr ""
+msgstr "ئارخپنى باششقا ئاتتا ساقلا"
 
 #: ../src/window.c:313
 #, c-format
 msgid "Can't open file \"%s\":"
-msgstr ""
+msgstr "ھۆججەت \"%s\" ئاچقىلى بولمىدى"
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
@@ -329,7 +329,7 @@ msgstr ""
 
 #: ../src/window.c:722
 msgid "Are you sure you want to do this?"
-msgstr ""
+msgstr "بۇنى راستتىنلا قىلامسىز؟"
 
 #: ../src/window.c:815 ../src/window.c:915
 msgid "Can't convert the archive to self-extracting:"
@@ -383,11 +383,11 @@ msgstr ""
 
 #: ../src/window.c:1394 ../src/window.c:1409
 msgid "Yes"
-msgstr ""
+msgstr "ھەئە"
 
 #: ../src/window.c:1396 ../src/window.c:1411
 msgid "No"
-msgstr ""
+msgstr "ياق"
 
 #: ../src/window.c:1614
 msgid "selected"
@@ -480,7 +480,7 @@ msgstr ""
 
 #: ../src/window.c:2000
 msgid "Comment"
-msgstr ""
+msgstr "ئىزاھات"
 
 #: ../src/window.c:2030
 msgid "From File"
@@ -497,25 +497,25 @@ msgstr ""
 
 #: ../src/deb.c:45
 msgid "Date modified"
-msgstr ""
+msgstr "سانلىق مەلۇمات ئۆزگەردى"
 
 #: ../src/extract_dialog.c:64 ../src/extract_dialog.c:468
 msgid "Extract to:"
-msgstr ""
+msgstr "يېشىش ئورنى:"
 
 #: ../src/extract_dialog.c:94
 msgid "Selected files"
-msgstr ""
+msgstr "تاللانغان ھۆججەتلەر"
 
 # FIXME: ngettext()
 #: ../src/extract_dialog.c:101
 msgid "Files: "
-msgstr ""
+msgstr "ھۆججەتلەر: "
 
 # FIXME: ngettext()
 #: ../src/extract_dialog.c:111
 msgid "Files "
-msgstr ""
+msgstr "ھۆججەتلەر "
 
 #: ../src/extract_dialog.c:125 ../src/extract_dialog.c:495
 msgid "Overwrite existing files"
@@ -543,7 +543,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:136
 msgid "Freshen existing files"
-msgstr ""
+msgstr "مەۋجۇد ھۆججەتنى يېڭىلا"
 
 #: ../src/extract_dialog.c:137
 msgid ""
@@ -564,12 +564,12 @@ msgstr ""
 
 #: ../src/extract_dialog.c:146
 msgid "Options "
-msgstr ""
+msgstr "تاللانما "
 
 #: ../src/extract_dialog.c:169 ../src/extract_dialog.c:511
 #: ../src/interface.c:178
 msgid "_Extract"
-msgstr ""
+msgstr "ياي(_E)"
 
 #: ../src/extract_dialog.c:223
 msgid "Decompress file"
@@ -605,7 +605,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:395
 msgid "Path"
-msgstr ""
+msgstr "يولى"
 
 #: ../src/extract_dialog.c:407
 msgid "Multi-Extract"
@@ -662,7 +662,7 @@ msgstr ""
 
 #: ../src/lha.c:51
 msgid "Timestamp"
-msgstr ""
+msgstr "Timestamp"
 
 #: ../src/interface.c:77
 msgid "_Archive"
@@ -698,7 +698,7 @@ msgstr ""
 
 #: ../src/interface.c:194
 msgid "Re_name"
-msgstr ""
+msgstr "ئاتىنى ئۆزگەرت(_N)"
 
 #: ../src/interface.c:208
 msgid "Make SF_X"
@@ -734,7 +734,7 @@ msgstr ""
 
 #: ../src/interface.c:288
 msgid "_Preferences"
-msgstr ""
+msgstr "مايىللىق(_P)"
 
 #: ../src/interface.c:297
 msgid "_Help"
@@ -774,7 +774,7 @@ msgstr ""
 
 #: ../src/interface.c:421
 msgid "Location:"
-msgstr ""
+msgstr "ئورنى:"
 
 #: ../src/interface.c:460
 msgid "Archive tree"
@@ -798,7 +798,7 @@ msgstr ""
 
 #: ../src/interface.c:782
 msgid "_Password:"
-msgstr ""
+msgstr "ئىم(_P):"
 
 #: ../src/interface.c:837 ../src/open-with-dlg.c:52
 msgid "Open With"
@@ -806,27 +806,27 @@ msgstr "پروگراممىدا ئاچ"
 
 #: ../src/interface.c:845
 msgid "Extract"
-msgstr ""
+msgstr "يەش"
 
 #: ../src/interface.c:853
 msgid "View"
-msgstr ""
+msgstr "كۆرۈنۈش"
 
 #: ../src/interface.c:866
 msgid "Cut"
-msgstr ""
+msgstr "كەس"
 
 #: ../src/interface.c:874
 msgid "Copy"
-msgstr ""
+msgstr "كۆچۈر"
 
 #: ../src/interface.c:882
 msgid "Paste"
-msgstr ""
+msgstr "چاپلا"
 
 #: ../src/interface.c:896
 msgid "Delete"
-msgstr ""
+msgstr "ئۆچۈر"
 
 #: ../src/interface.c:905
 msgid "Rename"
@@ -858,7 +858,7 @@ msgstr "ئاتى:"
 
 #: ../src/interface.c:1079
 msgid "Path:"
-msgstr ""
+msgstr "يول:"
 
 #: ../src/interface.c:1086
 msgid "Type:"
@@ -874,7 +874,7 @@ msgstr ""
 
 #: ../src/interface.c:1107
 msgid "Compressed size:"
-msgstr ""
+msgstr "پرىس چوڭلۇقى:"
 
 #: ../src/interface.c:1114
 msgid "Uncompressed size:"
@@ -890,7 +890,7 @@ msgstr ""
 
 #: ../src/interface.c:1135
 msgid "Compression ratio:"
-msgstr ""
+msgstr "پرىس نىسبىتى:"
 
 #: ../src/interface.c:1499 ../xarchiver.desktop.in.h:3
 msgid "Xarchiver"
@@ -946,11 +946,11 @@ msgstr ""
 
 #: ../src/main.c:78
 msgid "Show version and exit"
-msgstr ""
+msgstr "نەشرىنى كۆرسىتىپ چەھكىنىش"
 
 #: ../src/main.c:105
 msgid "[archive name]"
-msgstr ""
+msgstr "[ئارخىپ ئاتى]"
 
 #: ../src/main.c:109
 #, c-format
@@ -991,7 +991,7 @@ msgstr ""
 
 #: ../src/open-with-dlg.c:126
 msgid "Browse"
-msgstr ""
+msgstr "كۆز يۈگۈرت"
 
 #: ../src/open-with-dlg.c:311
 msgid "Select an application"
@@ -1003,7 +1003,7 @@ msgstr ""
 
 #: ../src/new_dialog.c:92
 msgid "Archive type:"
-msgstr ""
+msgstr "ئارخىپ تىپى"
 
 #: ../src/new_dialog.c:97
 msgid "Choose the archive type to create"
@@ -1037,11 +1037,11 @@ msgstr "تەڭشەكلەر"
 
 #: ../src/pref_dialog.c:61
 msgid "Archive"
-msgstr ""
+msgstr "ئارخىپ"
 
 #: ../src/pref_dialog.c:67
 msgid "Window"
-msgstr ""
+msgstr "كۆزنەك"
 
 #: ../src/pref_dialog.c:72
 msgid "Advanced"
@@ -1157,15 +1157,15 @@ msgstr ""
 
 #: ../src/rar.c:63
 msgid "CRC"
-msgstr ""
+msgstr "CRC"
 
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Method"
-msgstr ""
+msgstr "ئۇسۇل"
 
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Version"
-msgstr ""
+msgstr "نەشرى"
 
 #: ../src/rpm.c:39
 #, c-format
@@ -1210,7 +1210,7 @@ msgstr ""
 
 #: ../xarchiver.desktop.in.h:2
 msgid "Archive manager"
-msgstr ""
+msgstr "ئارخىپ باشقۇرغۇ"
 
 #~ msgid "_Thanks to"
 #~ msgstr "謝辞(_T)"
