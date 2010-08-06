@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: colossus73@gmail.com\n"
 "POT-Creation-Date: 2009-08-20 15:20+0200\n"
-"PO-Revision-Date: 2010-06-27 23:53+0600\n"
+"PO-Revision-Date: 2010-07-25 10:39+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgstr "Әрекеттер:"
 
 #: ../src/add_dialog.c:143
 msgid "Compression: "
-msgstr ""
+msgstr "Сығу деңгейі:"
 
 #: ../src/add_dialog.c:157
 #: ../src/extract_dialog.c:152
@@ -196,7 +196,7 @@ msgstr "Деңгейі"
 
 #: ../src/arj.c:48
 msgid "Attributes"
-msgstr ""
+msgstr "Атрибуттары"
 
 #: ../src/bzip2.c:187
 #: ../src/gzip.c:61
@@ -273,7 +273,7 @@ msgstr ""
 
 #: ../src/window.c:353
 msgid "Can't allocate memory for the archive structure:"
-msgstr ""
+msgstr "Архив құрамасы үшін жадыны бөлу мүмкін емес:"
 
 #: ../src/window.c:353
 msgid "Operation aborted!"
@@ -336,7 +336,7 @@ msgstr "Файлдар:%*s%s"
 
 #: ../src/window.c:524
 msgid "|Compressed\n"
-msgstr ""
+msgstr "|Сығылған\n"
 
 #: ../src/window.c:530
 #, c-format
@@ -427,7 +427,7 @@ msgstr "Жоқ"
 
 #: ../src/window.c:1614
 msgid "selected"
-msgstr ""
+msgstr "таңдалған"
 
 #: ../src/window.c:1619
 #, c-format
@@ -444,10 +444,10 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: ../src/window.c:1624
-#, fuzzy, c-format
+#, c-format
 msgid "%d file %s (%s)"
 msgid_plural "%d files %s (%s)"
-msgstr[0] "_Файл"
+msgstr[0] "%d файл %s (%s)"
 
 #: ../src/window.c:1680
 msgid "Can't perform another extraction:"
@@ -538,7 +538,7 @@ msgstr "Мәтіндік файлын ашу"
 #: ../src/window.c:2153
 #, c-format
 msgid "Can't open file %s:"
-msgstr ""
+msgstr "%s файлын ашу мүмкін емес:"
 
 #: ../src/deb.c:45
 msgid "Date modified"
@@ -632,7 +632,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:331
 msgid "Please enter the password."
-msgstr ""
+msgstr "Парольді енгізіңіз."
 
 #: ../src/extract_dialog.c:378
 msgid "Extracting files from archive,please wait..."
@@ -648,7 +648,7 @@ msgstr "Жолы:"
 
 #: ../src/extract_dialog.c:407
 msgid "Multi-Extract"
-msgstr ""
+msgstr "Топтап тарқату"
 
 #: ../src/extract_dialog.c:478
 msgid "Extract to dir \"Archive Name\""
@@ -744,7 +744,7 @@ msgstr "SFX _жасау"
 
 #: ../src/interface.c:218
 msgid "_Multi-Extract"
-msgstr ""
+msgstr "Т_оптап тарқату"
 
 #: ../src/interface.c:223
 msgid "Archive _comment"
@@ -784,7 +784,7 @@ msgstr "Құрама_сы"
 
 #: ../src/interface.c:313
 msgid "_Donate"
-msgstr ""
+msgstr "Ақ_шалай көмектесу"
 
 #: ../src/interface.c:333
 #: ../src/new_dialog.c:50
@@ -906,7 +906,7 @@ msgstr "Түрі:"
 
 #: ../src/interface.c:1093
 msgid "Encrypted:"
-msgstr ""
+msgstr "Шифрленген:"
 
 #: ../src/interface.c:1100
 msgid "Modified on:"
@@ -914,11 +914,11 @@ msgstr "Өзгертілген:"
 
 #: ../src/interface.c:1107
 msgid "Compressed size:"
-msgstr ""
+msgstr "Сығылған өлшемі:"
 
 #: ../src/interface.c:1114
 msgid "Uncompressed size:"
-msgstr ""
+msgstr "Сығылмаған өлшемі:"
 
 #: ../src/interface.c:1121
 msgid "Comment:"
@@ -939,15 +939,15 @@ msgstr "Xarchiver"
 
 #: ../src/interface.c:1526
 msgid "Extracting from archive:"
-msgstr ""
+msgstr "Архивтен тарқату:"
 
 #: ../src/interface.c:1528
 msgid "Adding to archive:"
-msgstr ""
+msgstr "Архивке қосу:"
 
 #: ../src/interface.c:1548
 msgid "Total Progress:"
-msgstr ""
+msgstr "Жалпы үрдісі:"
 
 #: ../src/main.c:58
 msgid "Extract archive to the destination directory and quits."
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:124
 msgid "Store archiver output"
-msgstr ""
+msgstr "Архиватор шығысын сақтау"
 
 #: ../src/pref_dialog.c:127
 msgid "This option takes more memory with large archives"
@@ -1148,7 +1148,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:185
 msgid "Web browser to use:"
-msgstr ""
+msgstr "Қолдану үшін веб браузер:"
 
 #: ../src/pref_dialog.c:192
 #: ../src/pref_dialog.c:205
@@ -1168,7 +1168,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:224
 msgid "Preferred temp directory:"
-msgstr ""
+msgstr "Таңдаулы уақытша бумасы:"
 
 #: ../src/pref_dialog.c:230
 #: ../src/pref_dialog.c:243
@@ -1177,19 +1177,19 @@ msgstr "/tmp"
 
 #: ../src/pref_dialog.c:237
 msgid "Preferred extract directory:"
-msgstr ""
+msgstr "Таңдаулы тарқату бумасы:"
 
 #: ../src/pref_dialog.c:250
 msgid "Save window geometry"
-msgstr ""
+msgstr "Терезе өлшемдерін сақтау"
 
 #: ../src/pref_dialog.c:255
 msgid "Allow subdirs with drag and drop"
-msgstr ""
+msgstr "Ішкі бумаларды ұстап әкелгенде ескеру"
 
 #: ../src/pref_dialog.c:259
 msgid "This option includes the subdirectories when you add files with drag and drop"
-msgstr ""
+msgstr "Файлдарды ұстап тартып әкелгенде ішкі бумалар да есепке алынады"
 
 #: ../src/pref_dialog.c:264
 msgid ""
@@ -1199,11 +1199,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the directory to use"
-msgstr ""
+msgstr "Қолдану үшін буманы таңдау"
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the application to use"
-msgstr ""
+msgstr "Қолдану үшін қолданбаны таңдау"
 
 #: ../src/rar.c:63
 msgid "CRC"
@@ -1226,11 +1226,11 @@ msgstr "%s RPM файлын ашу мүмкін емес:"
 
 #: ../src/rpm.c:52
 msgid "Permission"
-msgstr ""
+msgstr "Рұқсат"
 
 #: ../src/rpm.c:52
 msgid "Hard Link"
-msgstr ""
+msgstr "Қатаң сілтеме"
 
 #: ../src/rpm.c:52
 msgid "Owner"
