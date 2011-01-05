@@ -1,5 +1,3 @@
-#Croatian translation of xarchiver.
-#Copyright (C) 2005-2008 Giuseppe Torelli.
 # This file is distributed under the same license as the xarchiver package.
 # Ivica Kolić <ikoli@yahoo.com>, 2011.
 #
@@ -8,16 +6,15 @@ msgstr ""
 "Project-Id-Version: xarchiver\n"
 "Report-Msgid-Bugs-To: colossus73@gmail.com\n"
 "POT-Creation-Date: 2009-08-20 15:20+0200\n"
-"PO-Revision-Date: 2011-01-04 03:20+0100\n"
+"PO-Revision-Date: 2011-01-05 01:51+0100\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
-"Language-Team: Croatian <ikoli@yahoo.com>\n"
-"Language: \n"
+"Language-Team: Croatian\n"
+"Language: Croatian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Croatian\n"
-"X-Poedit-Country: CROATIA\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
@@ -57,15 +54,15 @@ msgstr "Staze datoteke:"
 
 #: ../src/add_dialog.c:72
 msgid "Store full paths"
-msgstr ""
+msgstr "Pohrani cijele putanje"
 
 #: ../src/add_dialog.c:76
 msgid "Do not store paths"
-msgstr ""
+msgstr "Ne pohranjuj putanje"
 
 #: ../src/add_dialog.c:85
 msgid "Options"
-msgstr ""
+msgstr "Opcije"
 
 #: ../src/add_dialog.c:103
 msgid "Update and add"
@@ -76,6 +73,8 @@ msgid ""
 "This option will add any new files and update any files which have been "
 "modified since the archive was last created/modified"
 msgstr ""
+"Ova će opcija dodati nove datoteke i dopuniti sve datoteke koje su "
+"promjenjene otkada je arhiva napravljena/promjenjena"
 
 #: ../src/add_dialog.c:108
 msgid "Freshen and replace"
@@ -124,47 +123,47 @@ msgstr ""
 
 #: ../src/add_dialog.c:180
 msgid "_Add"
-msgstr ""
+msgstr "_Dodaj"
 
 #: ../src/add_dialog.c:247
 msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
-msgstr ""
+msgstr "0 = bez zbijanja, 5 je zadano, 9 =najbolje zbijanje ali najsporije"
 
 #: ../src/add_dialog.c:253
 msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
-msgstr ""
+msgstr "0 = bez zbijanja, 6 je zadano, 9 =najbolje zbijanje ali najsporije"
 
 #: ../src/add_dialog.c:259
 msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
-msgstr ""
+msgstr "0 = bez zbijanja, 3 je zadano, 5 =najbolje zbijanje ali najsporije"
 
 #: ../src/add_dialog.c:265
 msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
-msgstr ""
+msgstr "0 = bez zbijanja, 1 je zadano, 4 =najbolje zbijanje ali najsporije"
 
 #: ../src/add_dialog.c:271
 msgid "5 = default compression, 7 = max compression"
-msgstr ""
+msgstr "5 = zadano zbijanje, 7 = maksimalno zbijanje"
 
 #: ../src/add_dialog.c:371 ../src/main.c:228
 msgid "Can't add files to the archive:"
-msgstr ""
+msgstr "Ne mogu dodati datoteke u arhivu"
 
 #: ../src/add_dialog.c:371
 msgid "You haven't selected any files to add!"
-msgstr ""
+msgstr "Niste izabrali datoteke za dodavanje!"
 
 #: ../src/add_dialog.c:379 ../src/interface.c:808
 msgid "You missed the password!"
-msgstr ""
+msgstr "Pogriješili ste lozinku!"
 
 #: ../src/add_dialog.c:379 ../src/interface.c:808
 msgid "Please enter it!"
-msgstr ""
+msgstr "Unesite je!"
 
 #: ../src/add_dialog.c:449
 msgid "Adding files to archive, please wait..."
-msgstr ""
+msgstr "Unosim datoteke u arhivu,molim pričekajte..."
 
 #: ../src/archive.c:87
 msgid "Can't run the archiver executable:"
@@ -172,7 +171,7 @@ msgstr ""
 
 #: ../src/archive.c:373
 msgid "Can't create temporary directory:"
-msgstr ""
+msgstr "Ne mogu napraviti privremeni direktorij"
 
 #: ../src/arj.c:48 ../src/gzip.c:78 ../src/lha.c:51 ../src/rar.c:63
 msgid "Ratio"
@@ -180,31 +179,31 @@ msgstr ""
 
 #: ../src/arj.c:48
 msgid "Attributes"
-msgstr ""
+msgstr "Atributi"
 
 #: ../src/bzip2.c:187 ../src/gzip.c:61 ../src/lha.c:51 ../src/rpm.c:52
 #: ../src/tar.c:54
 msgid "Points to"
-msgstr ""
+msgstr "Usmjeren ka"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/gzip.c:61 ../src/lha.c:51
 #: ../src/rar.c:63 ../src/tar.c:54 ../src/zip.c:49
 msgid "Permissions"
-msgstr ""
+msgstr "Dozvole"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/gzip.c:61 ../src/tar.c:54
 msgid "Owner/Group"
-msgstr ""
+msgstr "Vlasnik/grupa"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/extract_dialog.c:395
 #: ../src/gzip.c:61 ../src/gzip.c:78 ../src/lha.c:51 ../src/rpm.c:52
 #: ../src/tar.c:54
 msgid "Size"
-msgstr ""
+msgstr "Veličina"
 
 #: ../src/window.c:60
 msgid "An error occurred!"
-msgstr ""
+msgstr "Došlo je do greške!"
 
 #: ../src/window.c:60
 msgid "Please check the 'Store archiver output' option to see it."
@@ -216,24 +215,24 @@ msgstr ""
 
 #: ../src/window.c:182
 msgid "An error occurred while accessing the archive:"
-msgstr ""
+msgstr "Došlo je do greške kod pristupanja arhivi:"
 
 #: ../src/window.c:254
 msgid "Save the archive as"
-msgstr ""
+msgstr "Spremi arhivu kao"
 
 #: ../src/window.c:313
 #, c-format
 msgid "Can't open file \"%s\":"
-msgstr ""
+msgstr "Ne mogu otvoriti datoteku \"%s\":"
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
-msgstr ""
+msgstr "Format arhive nije prepoznat!"
 
 #: ../src/window.c:339
 msgid "Sorry,this archive format is not supported:"
-msgstr ""
+msgstr "Oprostite,ovaj format arhive nije podržan:"
 
 #: ../src/window.c:339
 msgid "the proper archiver is not installed!"
@@ -241,32 +240,32 @@ msgstr ""
 
 #: ../src/window.c:353
 msgid "Can't allocate memory for the archive structure:"
-msgstr ""
+msgstr "Ne mogu dodjeliti memoriju za strukturu arhive:"
 
 #: ../src/window.c:353
 msgid "Operation aborted!"
-msgstr ""
+msgstr "Operacija prekinuta!"
 
 #: ../src/window.c:378
 msgid "Opening archive,please wait..."
-msgstr ""
+msgstr "Otvaram arhivu,molim pričekajte..."
 
 #: ../src/window.c:402
 msgid "Testing archive,please wait..."
-msgstr ""
+msgstr "Testiram arhivu,molim pričekajte..."
 
 #: ../src/window.c:422
 msgid "Print the archive content as HTML"
-msgstr ""
+msgstr "Ispis sadržaja arhive kao HTML"
 
 #: ../src/window.c:424
 msgid "Print the archive content as text"
-msgstr ""
+msgstr "Ispis sadržaja arhive kao tekst"
 
 #: ../src/window.c:475
 #, c-format
 msgid "Archive contents:\n"
-msgstr ""
+msgstr "Sadržaji arhive :\n"
 
 #: ../src/window.c:479
 #, c-format
@@ -274,57 +273,59 @@ msgid ""
 "\n"
 "Name: "
 msgstr ""
+"\n"
+"Ime: "
 
 #: ../src/window.c:488
 #, c-format
 msgid "Compressed   size: "
-msgstr ""
+msgstr "Zbijena veličina:"
 
 #: ../src/window.c:495
 #, c-format
 msgid "Uncompressed size: "
-msgstr ""
+msgstr "Nezbijena veličina:"
 
 #: ../src/window.c:503
 #, c-format
 msgid "Number of files: "
-msgstr ""
+msgstr "Broj datoteka:"
 
 #: ../src/window.c:511
 #, c-format
 msgid "Comment:\n"
-msgstr ""
+msgstr "Komentar:\n"
 
 #: ../src/window.c:524
 #, c-format
 msgid "Files:%*s%s"
-msgstr ""
+msgstr "Datoteke:%*s%s"
 
 #: ../src/window.c:524
 msgid "|Compressed\n"
-msgstr ""
+msgstr "|Zbijeno\n"
 
 #: ../src/window.c:530
 #, c-format
 msgid "<th>Files:</th>"
-msgstr ""
+msgstr "<th>Datoteke:</th>"
 
 #: ../src/window.c:531
 #, c-format
 msgid "<th>Compressed:</th>"
-msgstr ""
+msgstr "<th>Zbijeno:</th>"
 
 #: ../src/window.c:617 ../src/main.c:276
 msgid "Select \"New\" to create or \"Open\" to open an archive"
-msgstr ""
+msgstr "Odaberi \"Novi\" za stvaranje ili \"Otvori\"za otvaranje arhive"
 
 #: ../src/window.c:722
 msgid "You are about to delete entries from the archive."
-msgstr ""
+msgstr "Izbrisati ćete unose iz arhive"
 
 #: ../src/window.c:722
 msgid "Are you sure you want to do this?"
-msgstr ""
+msgstr "Jeste li sigurni da to želite učiniti?"
 
 #: ../src/window.c:815 ../src/window.c:915
 msgid "Can't convert the archive to self-extracting:"
@@ -340,11 +341,11 @@ msgstr ""
 
 #: ../src/window.c:980
 msgid "A GTK+2 only lightweight archive manager"
-msgstr ""
+msgstr "GTK+2 lagani upravitelj arhivama"
 
 #: ../src/window.c:983
 msgid "translator-credits"
-msgstr ""
+msgstr "Ivica Kolić <ikoli@yahoo.com>"
 
 #: ../src/window.c:1013
 msgid "Save the self-extracting archive as"
@@ -352,19 +353,19 @@ msgstr ""
 
 #: ../src/window.c:1042 ../src/interface.c:340
 msgid "Open an archive"
-msgstr ""
+msgstr "Otvori arhivu"
 
 #: ../src/window.c:1055 ../src/extract_dialog.c:90 ../src/new_dialog.c:62
 msgid "All files"
-msgstr ""
+msgstr "Sve datoteke"
 
 #: ../src/window.c:1060 ../src/new_dialog.c:67
 msgid "Only archives"
-msgstr ""
+msgstr "Samo arhive"
 
 #: ../src/window.c:1274
 msgid "Filename"
-msgstr ""
+msgstr "Ime datoteke"
 
 #: ../src/window.c:1331
 msgid "Doing so will probably corrupt your archive!"
@@ -376,15 +377,15 @@ msgstr ""
 
 #: ../src/window.c:1394 ../src/window.c:1409
 msgid "Yes"
-msgstr ""
+msgstr "Da "
 
 #: ../src/window.c:1396 ../src/window.c:1411
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: ../src/window.c:1614
 msgid "selected"
-msgstr ""
+msgstr "odabrano"
 
 #: ../src/window.c:1619
 #, c-format
@@ -409,26 +410,26 @@ msgstr[1] ""
 
 #: ../src/window.c:1680
 msgid "Can't perform another extraction:"
-msgstr ""
+msgstr "Ne mogu izvršiti još jedno raspakiranje"
 
 #: ../src/window.c:1680
 msgid "Please wait until the completion of the current one!"
-msgstr ""
+msgstr "Pričekajte do završetka trenutnog!"
 
 #: ../src/window.c:1713 ../src/extract_dialog.c:341
 #, c-format
 msgid ""
 "You don't have the right permissions to extract the files to the directory "
 "\"%s\"."
-msgstr ""
+msgstr "Nemate dozvole za raspakiranje datoteka u direktorij \"%s\"."
 
 #: ../src/window.c:1714 ../src/extract_dialog.c:342
 msgid "Can't perform extraction!"
-msgstr ""
+msgstr "Ne mogu raspakirati!"
 
 #: ../src/window.c:1755 ../src/extract_dialog.c:650 ../src/interface.c:1392
 msgid "Sorry,I could not perform the operation!"
-msgstr ""
+msgstr "Oprostite,ne mogu izvršiti operaciju!"
 
 #: ../src/window.c:1789 ../src/window.c:1801 ../src/interface.c:1385
 msgid "Can't perform this action:"
@@ -436,15 +437,15 @@ msgstr ""
 
 #: ../src/window.c:1789
 msgid "You have to install rar package!"
-msgstr ""
+msgstr "Trebate instalirati rar paket!"
 
 #: ../src/window.c:1796 ../src/interface.c:1382
 msgid "You can't add content to deb packages!"
-msgstr ""
+msgstr "Ne možete dodati sadržaj deb paketima!"
 
 #: ../src/window.c:1798 ../src/interface.c:1384
 msgid "You can't add content to rpm packages!"
-msgstr ""
+msgstr "Ne možete dodati sadržaj rpm paketima!"
 
 #: ../src/window.c:1800
 msgid "The archiver doesn't support this feature!"
@@ -452,44 +453,44 @@ msgstr ""
 
 #: ../src/window.c:1881
 msgid "You didn't set which browser to use!"
-msgstr ""
+msgstr "Niste postavili koji preglednik koristiti!"
 
 #: ../src/window.c:1881 ../src/window.c:1922
 msgid "Please go to Preferences->Advanced and set it."
-msgstr ""
+msgstr "Molim odite u Osobitosti>Napredno i postavite ga."
 
 #: ../src/window.c:1913
 msgid "This file type is not supported!"
-msgstr ""
+msgstr "Ovaj tip datoteke nije podržan."
 
 #: ../src/window.c:1913
 msgid "Please install xdg-utils package."
-msgstr ""
+msgstr "Moloim,instalirajte xdg-utils paket."
 
 #: ../src/window.c:1922
 msgid "You didn't set which program to use for opening this file!"
-msgstr ""
+msgstr "Niste postavili koji program koristiti za otvaranje ove datoteke!"
 
 #: ../src/window.c:1948
 msgid "Failed to launch the application!"
-msgstr ""
+msgstr "Neuspjelo pokretanje programa!"
 
 #: ../src/window.c:2000
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: ../src/window.c:2030
 msgid "From File"
-msgstr ""
+msgstr "Iz datoteke"
 
 #: ../src/window.c:2135
 msgid "Open a text file"
-msgstr ""
+msgstr "Otvori tekst datoteku"
 
 #: ../src/window.c:2153
 #, c-format
 msgid "Can't open file %s:"
-msgstr ""
+msgstr "Ne mogu otvoriti datoteku %s:"
 
 #: ../src/deb.c:45
 msgid "Date modified"
@@ -497,19 +498,19 @@ msgstr ""
 
 #: ../src/extract_dialog.c:64 ../src/extract_dialog.c:468
 msgid "Extract to:"
-msgstr ""
+msgstr "Raspakiraj u:"
 
 #: ../src/extract_dialog.c:94
 msgid "Selected files"
-msgstr ""
+msgstr "Odabrane datoteke"
 
 #: ../src/extract_dialog.c:101
 msgid "Files: "
-msgstr ""
+msgstr "Datoteke:"
 
 #: ../src/extract_dialog.c:111
 msgid "Files "
-msgstr ""
+msgstr "Datoteke"
 
 #: ../src/extract_dialog.c:125 ../src/extract_dialog.c:495
 msgid "Overwrite existing files"
@@ -537,7 +538,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:136
 msgid "Freshen existing files"
-msgstr ""
+msgstr "Osvježi postojeće datoteke"
 
 #: ../src/extract_dialog.c:137
 msgid ""
@@ -547,7 +548,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:141
 msgid "Update existing files"
-msgstr ""
+msgstr "Dopuni postojeće datoteke"
 
 #: ../src/extract_dialog.c:142
 msgid ""
@@ -558,12 +559,12 @@ msgstr ""
 
 #: ../src/extract_dialog.c:146
 msgid "Options "
-msgstr ""
+msgstr "Opcije"
 
 #: ../src/extract_dialog.c:169 ../src/extract_dialog.c:511
 #: ../src/interface.c:178
 msgid "_Extract"
-msgstr ""
+msgstr "_Raspakiraj"
 
 #: ../src/extract_dialog.c:223
 msgid "Decompress file"
@@ -571,15 +572,15 @@ msgstr ""
 
 #: ../src/extract_dialog.c:225 ../src/interface.c:396
 msgid "Extract files"
-msgstr ""
+msgstr "Raspakiraj datoteke"
 
 #: ../src/extract_dialog.c:317 ../src/extract_dialog.c:723
 msgid "You missed where to extract the files!"
-msgstr ""
+msgstr "Pogriješili ste gdje raspakirati datoteke!"
 
 #: ../src/extract_dialog.c:317
 msgid "Please enter the extraction path."
-msgstr ""
+msgstr "Unesite putanju raspakiranja."
 
 #: ../src/extract_dialog.c:331
 msgid "This archive is encrypted!"
@@ -587,19 +588,19 @@ msgstr ""
 
 #: ../src/extract_dialog.c:331
 msgid "Please enter the password."
-msgstr ""
+msgstr "Molim unesite lozinku."
 
 #: ../src/extract_dialog.c:378
 msgid "Extracting files from archive,please wait..."
-msgstr ""
+msgstr "Raspakiram datoteke iz arhiva,molim pričekajte"
 
 #: ../src/extract_dialog.c:395
 msgid "Archive Name"
-msgstr ""
+msgstr "Ime arhive"
 
 #: ../src/extract_dialog.c:395
 msgid "Path"
-msgstr ""
+msgstr "Putanja"
 
 #: ../src/extract_dialog.c:407
 msgid "Multi-Extract"
@@ -616,7 +617,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:483
 msgid "Destination dirs:"
-msgstr ""
+msgstr "Odredišni direktoriji:"
 
 #: ../src/extract_dialog.c:497
 msgid "Extract pathnames"
@@ -624,15 +625,15 @@ msgstr ""
 
 #: ../src/extract_dialog.c:499
 msgid "Options:"
-msgstr ""
+msgstr "Opcije:"
 
 #: ../src/extract_dialog.c:531
 msgid "Please select the archives you want to extract"
-msgstr ""
+msgstr "Molim odaberite arhive koje želite raspakirati"
 
 #: ../src/extract_dialog.c:672
 msgid "Please select the destination directory"
-msgstr ""
+msgstr "Molim odredite odredišni direktorij"
 
 #: ../src/extract_dialog.c:715
 msgid "Can't multi-extract archives:"
