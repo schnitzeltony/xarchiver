@@ -1,6 +1,6 @@
 # This file is distributed under the same license as the xarchiver package.
 # Ivica Kolić <ikoli@yahoo.com>, 2011.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: xarchiver\n"
@@ -9,12 +9,11 @@ msgstr ""
 "PO-Revision-Date: 2011-01-05 01:51+0100\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian\n"
-"Language: Croatian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: Croatian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
@@ -69,22 +68,15 @@ msgid "Update and add"
 msgstr "Dopuni i dodaj"
 
 #: ../src/add_dialog.c:105
-msgid ""
-"This option will add any new files and update any files which have been "
-"modified since the archive was last created/modified"
-msgstr ""
-"Ova će opcija dodati nove datoteke i dopuniti sve datoteke koje su "
-"promjenjene otkada je arhiva napravljena/promjenjena"
+msgid "This option will add any new files and update any files which have been modified since the archive was last created/modified"
+msgstr "Ova će opcija dodati nove datoteke i dopuniti sve datoteke koje su promjenjene otkada je arhiva napravljena/promjenjena"
 
 #: ../src/add_dialog.c:108
 msgid "Freshen and replace"
 msgstr "Osvježi i zamijeni"
 
 #: ../src/add_dialog.c:111
-msgid ""
-"This option affects the archive only if it has been modified more recently "
-"than the version already in the archive; unlike the update option it will "
-"not add files that are not already in the archive"
+msgid "This option affects the archive only if it has been modified more recently than the version already in the archive; unlike the update option it will not add files that are not already in the archive"
 msgstr ""
 
 #: ../src/add_dialog.c:115
@@ -96,9 +88,7 @@ msgid "Create a solid archive"
 msgstr ""
 
 #: ../src/add_dialog.c:121
-msgid ""
-"In a solid archive the files are grouped together featuring a better "
-"compression ratio"
+msgid "In a solid archive the files are grouped together featuring a better compression ratio"
 msgstr ""
 
 #: ../src/add_dialog.c:124
@@ -418,9 +408,7 @@ msgstr "Pričekajte do završetka trenutnog!"
 
 #: ../src/window.c:1713 ../src/extract_dialog.c:341
 #, c-format
-msgid ""
-"You don't have the right permissions to extract the files to the directory "
-"\"%s\"."
+msgid "You don't have the right permissions to extract the files to the directory \"%s\"."
 msgstr "Nemate dozvole za raspakiranje datoteka u direktorij \"%s\"."
 
 #: ../src/window.c:1714 ../src/extract_dialog.c:342
@@ -518,11 +506,10 @@ msgstr ""
 
 #: ../src/extract_dialog.c:128
 msgid "Extract files with full path"
-msgstr ""
+msgstr "Raspakiraj datoteke sa punom putanjom"
 
 #: ../src/extract_dialog.c:129
-msgid ""
-"The archive's directory structure is recreated in the extraction directory"
+msgid "The archive's directory structure is recreated in the extraction directory"
 msgstr ""
 
 #: ../src/extract_dialog.c:132
@@ -530,10 +517,7 @@ msgid "Touch files"
 msgstr ""
 
 #: ../src/extract_dialog.c:133
-msgid ""
-"When this option is used,tar leaves the data modification times of the files "
-"it extracts as the times when the files were extracted,instead of setting it "
-"to the times recorded in the archive"
+msgid "When this option is used,tar leaves the data modification times of the files it extracts as the times when the files were extracted,instead of setting it to the times recorded in the archive"
 msgstr ""
 
 #: ../src/extract_dialog.c:136
@@ -541,9 +525,7 @@ msgid "Freshen existing files"
 msgstr "Osvježi postojeće datoteke"
 
 #: ../src/extract_dialog.c:137
-msgid ""
-"Extract only those files that already exist on disk and that are newer than "
-"the disk copies"
+msgid "Extract only those files that already exist on disk and that are newer than the disk copies"
 msgstr ""
 
 #: ../src/extract_dialog.c:141
@@ -551,10 +533,7 @@ msgid "Update existing files"
 msgstr "Dopuni postojeće datoteke"
 
 #: ../src/extract_dialog.c:142
-msgid ""
-"This option performs the same function as the freshen one,extracting files "
-"that are newer than those with the same name on disk,and in addition it "
-"extracts those files that do not already exist on disk"
+msgid "This option performs the same function as the freshen one,extracting files that are newer than those with the same name on disk,and in addition it extracts those files that do not already exist on disk"
 msgstr ""
 
 #: ../src/extract_dialog.c:146
@@ -611,8 +590,7 @@ msgid "Extract to dir \"Archive Name\""
 msgstr ""
 
 #: ../src/extract_dialog.c:479
-msgid ""
-"This option extracts archives in directories named with the archive names"
+msgid "This option extracts archives in directories named with the archive names"
 msgstr ""
 
 #: ../src/extract_dialog.c:483
@@ -645,11 +623,11 @@ msgstr ""
 
 #: ../src/extract_dialog.c:723
 msgid "Please fill the \"Extract to\" field!"
-msgstr ""
+msgstr "Molim ispunite \"Raspakiraj u\" polje! "
 
 #: ../src/extract_dialog.c:754
 msgid "Some errors occurred:"
-msgstr ""
+msgstr "Došlo je do grešaka:"
 
 #: ../src/lha.c:51
 msgid "UID/GID"
@@ -661,27 +639,27 @@ msgstr ""
 
 #: ../src/interface.c:77
 msgid "_Archive"
-msgstr ""
+msgstr "_Arhiva"
 
 #: ../src/interface.c:92
 msgid "_List as"
-msgstr ""
+msgstr "_Listaj kao"
 
 #: ../src/interface.c:103
 msgid "_Text file"
-msgstr ""
+msgstr "_Tekst datoteka"
 
 #: ../src/interface.c:110
 msgid "_HTML file"
-msgstr ""
+msgstr "_HTML daotteka"
 
 #: ../src/interface.c:127
 msgid "_Test"
-msgstr ""
+msgstr "_Test"
 
 #: ../src/interface.c:137
 msgid "_Properties"
-msgstr ""
+msgstr "_Svojstva"
 
 #: ../src/interface.c:161
 msgid "A_ction"
@@ -689,11 +667,11 @@ msgstr ""
 
 #: ../src/interface.c:168
 msgid "A_dd"
-msgstr ""
+msgstr "D_odaj"
 
 #: ../src/interface.c:194
 msgid "Re_name"
-msgstr ""
+msgstr "Pre_imenuj"
 
 #: ../src/interface.c:208
 msgid "Make SF_X"
@@ -709,7 +687,7 @@ msgstr ""
 
 #: ../src/interface.c:237
 msgid "Select _all"
-msgstr ""
+msgstr "Odaberi _sve"
 
 #: ../src/interface.c:247
 msgid "Dese_lect all"
@@ -717,7 +695,7 @@ msgstr ""
 
 #: ../src/interface.c:253
 msgid "Select _by pattern"
-msgstr ""
+msgstr "Odaberi _po uzorku"
 
 #: ../src/interface.c:264
 msgid "Cmd-line outp_ut"
@@ -725,19 +703,19 @@ msgstr ""
 
 #: ../src/interface.c:277
 msgid "Enter passwo_rd"
-msgstr ""
+msgstr "Unesi lozin_ku"
 
 #: ../src/interface.c:288
 msgid "_Preferences"
-msgstr ""
+msgstr "_Osobitosti"
 
 #: ../src/interface.c:297
 msgid "_Help"
-msgstr ""
+msgstr "_Pomoć"
 
 #: ../src/interface.c:304
 msgid "_Contents"
-msgstr ""
+msgstr "_Sadržaj"
 
 #: ../src/interface.c:313
 msgid "_Donate"
@@ -745,19 +723,19 @@ msgstr ""
 
 #: ../src/interface.c:333 ../src/new_dialog.c:50
 msgid "Create a new archive"
-msgstr ""
+msgstr "Napravi novu arhivu"
 
 #: ../src/interface.c:352
 msgid "Back"
-msgstr ""
+msgstr "Natrag"
 
 #: ../src/interface.c:360
 msgid "Up"
-msgstr ""
+msgstr "Gore"
 
 #: ../src/interface.c:368
 msgid "Forward"
-msgstr ""
+msgstr "Naprijed"
 
 #: ../src/interface.c:376
 msgid "Root"
@@ -769,7 +747,7 @@ msgstr ""
 
 #: ../src/interface.c:421
 msgid "Location:"
-msgstr ""
+msgstr "Lokacija:"
 
 #: ../src/interface.c:460
 msgid "Archive tree"
@@ -781,7 +759,7 @@ msgstr ""
 
 #: ../src/interface.c:677
 msgid "Close archive"
-msgstr ""
+msgstr "Zatvori arhivu"
 
 #: ../src/interface.c:762
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
@@ -793,47 +771,47 @@ msgstr ""
 
 #: ../src/interface.c:782
 msgid "_Password:"
-msgstr ""
+msgstr "_Lozinka:"
 
 #: ../src/interface.c:837 ../src/open-with-dlg.c:52
 msgid "Open With"
-msgstr ""
+msgstr "Otvori pomoću"
 
 #: ../src/interface.c:845
 msgid "Extract"
-msgstr ""
+msgstr "Raspakiraj"
 
 #: ../src/interface.c:853
 msgid "View"
-msgstr ""
+msgstr "Pogled"
 
 #: ../src/interface.c:866
 msgid "Cut"
-msgstr ""
+msgstr "Izreži"
 
 #: ../src/interface.c:874
 msgid "Copy"
-msgstr ""
+msgstr "Kopiraj"
 
 #: ../src/interface.c:882
 msgid "Paste"
-msgstr ""
+msgstr "Zalijepi"
 
 #: ../src/interface.c:896
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: ../src/interface.c:905
 msgid "Rename"
-msgstr ""
+msgstr "Preimenuj"
 
 #: ../src/interface.c:944
 msgid "Select by Pattern"
-msgstr ""
+msgstr "Odaberi po uzorku"
 
 #: ../src/interface.c:957
 msgid "Pattern:"
-msgstr ""
+msgstr "Uzorak:"
 
 #: ../src/interface.c:962
 msgid "example: *.txt; ac*"
@@ -841,23 +819,23 @@ msgstr ""
 
 #: ../src/interface.c:979
 msgid "_Select"
-msgstr ""
+msgstr "_Odaberi"
 
 #: ../src/interface.c:1051
 msgid "Archive Properties"
-msgstr ""
+msgstr "Svojstva arhive"
 
 #: ../src/interface.c:1072
 msgid "Name:"
-msgstr ""
+msgstr "Ime:"
 
 #: ../src/interface.c:1079
 msgid "Path:"
-msgstr ""
+msgstr "Putanja:"
 
 #: ../src/interface.c:1086
 msgid "Type:"
-msgstr ""
+msgstr "Tip:"
 
 #: ../src/interface.c:1093
 msgid "Encrypted:"
@@ -865,23 +843,23 @@ msgstr ""
 
 #: ../src/interface.c:1100
 msgid "Modified on:"
-msgstr ""
+msgstr "Izmjenjeno u:"
 
 #: ../src/interface.c:1107
 msgid "Compressed size:"
-msgstr ""
+msgstr "Zbijena veličina:"
 
 #: ../src/interface.c:1114
 msgid "Uncompressed size:"
-msgstr ""
+msgstr "Nezbijena veličina:"
 
 #: ../src/interface.c:1121
 msgid "Comment:"
-msgstr ""
+msgstr "Komentar:"
 
 #: ../src/interface.c:1128
 msgid "Number of files:"
-msgstr ""
+msgstr "Broj datoteka:"
 
 #: ../src/interface.c:1135
 msgid "Compression ratio:"
@@ -889,27 +867,27 @@ msgstr ""
 
 #: ../src/interface.c:1499 ../xarchiver.desktop.in.h:3
 msgid "Xarchiver"
-msgstr ""
+msgstr "Xarchiver"
 
 #: ../src/interface.c:1526
 msgid "Extracting from archive:"
-msgstr ""
+msgstr "Raspakiram iz arhive:"
 
 #: ../src/interface.c:1528
 msgid "Adding to archive:"
-msgstr ""
+msgstr "Dodajem u arhivu:"
 
 #: ../src/interface.c:1548
 msgid "Total Progress:"
-msgstr ""
+msgstr "Ukupni napredak:"
 
 #: ../src/main.c:58
 msgid "Extract archive to the destination directory and quits."
-msgstr ""
+msgstr "Raspakiraj arhivu u odredišni direktorij i prestani."
 
 #: ../src/main.c:59
 msgid "destination archive"
-msgstr ""
+msgstr "odredišna arhiva"
 
 #: ../src/main.c:62
 msgid "Extract archive by asking the extraction directory and quits."
@@ -917,7 +895,7 @@ msgstr ""
 
 #: ../src/main.c:63 ../src/main.c:75
 msgid "archive"
-msgstr ""
+msgstr "arhiva"
 
 #: ../src/main.c:66
 msgid "Multi-extract archives"
@@ -925,7 +903,7 @@ msgstr ""
 
 #: ../src/main.c:67
 msgid "filenames"
-msgstr ""
+msgstr "imena datoteka"
 
 #: ../src/main.c:70
 msgid "Add the given files by asking the name of the archive and quits."
@@ -933,7 +911,7 @@ msgstr ""
 
 #: ../src/main.c:71
 msgid "file1 file2 file3 ... fileN"
-msgstr ""
+msgstr "datoteka1 datoteka2 datoteka3 ... datotekaN"
 
 #: ../src/main.c:74
 msgid "Add files to archive by asking their filenames and quits."
@@ -941,11 +919,11 @@ msgstr ""
 
 #: ../src/main.c:78
 msgid "Show version and exit"
-msgstr ""
+msgstr "Pokaži verziju i izađi"
 
 #: ../src/main.c:105
 msgid "[archive name]"
-msgstr ""
+msgstr "[ime arhive]"
 
 #: ../src/main.c:109
 #, c-format
@@ -961,7 +939,7 @@ msgstr ""
 
 #: ../src/main.c:146 ../src/main.c:169
 msgid "Can't extract files from the archive:"
-msgstr ""
+msgstr "Ne mogu raspakirati datoteke iz arhive:"
 
 #: ../src/main.c:146 ../src/main.c:169 ../src/main.c:228
 msgid "You missed the archive name!\n"
@@ -973,36 +951,36 @@ msgstr ""
 
 #: ../src/open-with-dlg.c:54
 msgid "Open the selected files with"
-msgstr ""
+msgstr "Otvori odabrane datoteke pomoću"
 
 #: ../src/open-with-dlg.c:83
 #, c-format
 msgid "Open <i>%s</i> with:"
-msgstr ""
+msgstr "Otvori <i>%s</i> pomoću:"
 
 #: ../src/open-with-dlg.c:118
 msgid "Use a custom command:"
-msgstr ""
+msgstr "Koristi prilagođenu naredbu"
 
 #: ../src/open-with-dlg.c:126
 msgid "Browse"
-msgstr ""
+msgstr "Pregledaj"
 
 #: ../src/open-with-dlg.c:311
 msgid "Select an application"
-msgstr ""
+msgstr "Odabri program"
 
 #: ../src/new_dialog.c:55
 msgid "Cr_eate"
-msgstr ""
+msgstr "Na_pravi"
 
 #: ../src/new_dialog.c:92
 msgid "Archive type:"
-msgstr ""
+msgstr "Tip arhive:"
 
 #: ../src/new_dialog.c:97
 msgid "Choose the archive type to create"
-msgstr ""
+msgstr "Izaberi tip arhive za napraviti"
 
 #: ../src/new_dialog.c:112
 msgid "Add the archive extension to the filename"
@@ -1011,16 +989,16 @@ msgstr ""
 #: ../src/new_dialog.c:159
 #, c-format
 msgid "\"%s\" is already open!"
-msgstr ""
+msgstr "\"%s\" je već otvoren!"
 
 #: ../src/new_dialog.c:160
 msgid "Can't create a new archive:"
-msgstr ""
+msgstr "Ne mogu napraviti novu arhivu:"
 
 #: ../src/new_dialog.c:175
 #, c-format
 msgid "The archive \"%s\" already exists!"
-msgstr ""
+msgstr "Arhiva \"%s\" već postoji! "
 
 #: ../src/new_dialog.c:181
 msgid "Do you want to overwrite it?"
@@ -1028,27 +1006,27 @@ msgstr ""
 
 #: ../src/pref_dialog.c:41
 msgid "Preferences"
-msgstr ""
+msgstr "Osobitosti"
 
 #: ../src/pref_dialog.c:61
 msgid "Archive"
-msgstr ""
+msgstr "Arhiva"
 
 #: ../src/pref_dialog.c:67
 msgid "Window"
-msgstr ""
+msgstr "Prozor"
 
 #: ../src/pref_dialog.c:72
 msgid "Advanced"
-msgstr ""
+msgstr "Napredno"
 
 #: ../src/pref_dialog.c:97
 msgid "Preferred archive format"
-msgstr ""
+msgstr "Željeni format arhive"
 
 #: ../src/pref_dialog.c:115
 msgid "Confirm deletion of files"
-msgstr ""
+msgstr "Potvrdi brisanje datoteka"
 
 #: ../src/pref_dialog.c:119
 msgid "Sort archive by filename"
@@ -1072,11 +1050,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:144
 msgid "large"
-msgstr ""
+msgstr "velike"
 
 #: ../src/pref_dialog.c:145
 msgid "small"
-msgstr ""
+msgstr "male"
 
 #: ../src/pref_dialog.c:150
 msgid "Show archive comment"
@@ -1096,28 +1074,28 @@ msgstr ""
 
 #: ../src/pref_dialog.c:185
 msgid "Web browser to use:"
-msgstr ""
+msgstr "Preglednik za uporabu:"
 
 #: ../src/pref_dialog.c:192 ../src/pref_dialog.c:205 ../src/pref_dialog.c:218
 #: ../src/pref_dialog.c:231 ../src/pref_dialog.c:244
 msgid "choose..."
-msgstr ""
+msgstr "izaberi..."
 
 #: ../src/pref_dialog.c:198
 msgid "Open text files with:"
-msgstr ""
+msgstr "Otvori tekst datoteke pomoću:"
 
 #: ../src/pref_dialog.c:211
 msgid "Open image files with:"
-msgstr ""
+msgstr "Otvori slikovne datoteke pomoću:"
 
 #: ../src/pref_dialog.c:224
 msgid "Preferred temp directory:"
-msgstr ""
+msgstr "Željeni privremeni direktorij:"
 
 #: ../src/pref_dialog.c:230 ../src/pref_dialog.c:243
 msgid "/tmp"
-msgstr ""
+msgstr "/tmp"
 
 #: ../src/pref_dialog.c:237
 msgid "Preferred extract directory:"
@@ -1125,15 +1103,14 @@ msgstr ""
 
 #: ../src/pref_dialog.c:250
 msgid "Save window geometry"
-msgstr ""
+msgstr "Spremi geometriju prozora"
 
 #: ../src/pref_dialog.c:255
 msgid "Allow subdirs with drag and drop"
 msgstr ""
 
 #: ../src/pref_dialog.c:259
-msgid ""
-"This option includes the subdirectories when you add files with drag and drop"
+msgid "This option includes the subdirectories when you add files with drag and drop"
 msgstr ""
 
 #: ../src/pref_dialog.c:264
@@ -1144,11 +1121,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the directory to use"
-msgstr ""
+msgstr "Izaberi direktorij za uporabu"
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the application to use"
-msgstr ""
+msgstr "Izaberi program za uporabu"
 
 #: ../src/rar.c:63
 msgid "CRC"
@@ -1156,20 +1133,20 @@ msgstr ""
 
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Version"
-msgstr ""
+msgstr "Verzija"
 
 #: ../src/rpm.c:39
 #, c-format
 msgid "Can't open RPM file %s:"
-msgstr ""
+msgstr "Ne mogu otvoriti RPM datoteku %s: "
 
 #: ../src/rpm.c:52
 msgid "Permission"
-msgstr ""
+msgstr "Dozvola"
 
 #: ../src/rpm.c:52
 msgid "Hard Link"
@@ -1177,11 +1154,11 @@ msgstr ""
 
 #: ../src/rpm.c:52
 msgid "Owner"
-msgstr ""
+msgstr "Vlasnik"
 
 #: ../src/rpm.c:52
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: ../src/rpm.c:62
 msgid "Can't fseek to position 104:"
@@ -1189,7 +1166,7 @@ msgstr ""
 
 #: ../src/rpm.c:68 ../src/rpm.c:84
 msgid "Can't read data from file:"
-msgstr ""
+msgstr "Ne mogu čitati podatke sa datoteke"
 
 #: ../src/rpm.c:78
 msgid "Can't fseek in file:"
@@ -1197,7 +1174,7 @@ msgstr ""
 
 #: ../src/zip.c:49
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: ../xarchiver.desktop.in.h:1
 msgid "A GTK+2 only archive manager"
@@ -1205,4 +1182,4 @@ msgstr ""
 
 #: ../xarchiver.desktop.in.h:2
 msgid "Archive manager"
-msgstr ""
+msgstr "Upravitelj arhivama"
