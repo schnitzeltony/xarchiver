@@ -323,11 +323,11 @@ msgstr ""
 
 #: ../src/window.c:826 ../src/window.c:926
 msgid "Can't write the unzipsfx module to the archive:"
-msgstr ""
+msgstr "Ne mogu upisati unzipsfx modul u arhivu:"
 
 #: ../src/window.c:886
 msgid "Please select the 7zCon.sfx module"
-msgstr ""
+msgstr "Molim odaberite 7zCon.sfx modul"
 
 #: ../src/window.c:980
 msgid "A GTK+2 only lightweight archive manager"
@@ -339,7 +339,7 @@ msgstr "Ivica Kolić <ikoli@yahoo.com>"
 
 #: ../src/window.c:1013
 msgid "Save the self-extracting archive as"
-msgstr ""
+msgstr "Spremi samoraspakirajuću arhivu kao:"
 
 #: ../src/window.c:1042 ../src/interface.c:340
 msgid "Open an archive"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: ../src/window.c:1331
 msgid "Do you really want to cancel?"
-msgstr ""
+msgstr "Želite li doista odustati?"
 
 #: ../src/window.c:1394 ../src/window.c:1409
 msgid "Yes"
@@ -587,7 +587,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c:478
 msgid "Extract to dir \"Archive Name\""
-msgstr ""
+msgstr "Raspakiraj u direktorij \"Ime arhive\""
 
 #: ../src/extract_dialog.c:479
 msgid "This option extracts archives in directories named with the archive names"
@@ -631,7 +631,7 @@ msgstr "Došlo je do grešaka:"
 
 #: ../src/lha.c:51
 msgid "UID/GID"
-msgstr ""
+msgstr "UID/GID"
 
 #: ../src/lha.c:51
 msgid "Timestamp"
@@ -739,11 +739,11 @@ msgstr "Naprijed"
 
 #: ../src/interface.c:376
 msgid "Root"
-msgstr ""
+msgstr "Korijen"
 
 #: ../src/interface.c:408
 msgid "Cancel current operation"
-msgstr ""
+msgstr "Otkaži trenutnu operaciju"
 
 #: ../src/interface.c:421
 msgid "Location:"
@@ -751,7 +751,7 @@ msgstr "Lokacija:"
 
 #: ../src/interface.c:460
 msgid "Archive tree"
-msgstr ""
+msgstr "Stablo arhive"
 
 #: ../src/interface.c:508
 msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
@@ -763,11 +763,11 @@ msgstr "Zatvori arhivu"
 
 #: ../src/interface.c:762
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
-msgstr ""
+msgstr "<span weight='bold' size='larger'>POtrebna lozinka za:</span>"
 
 #: ../src/interface.c:764
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
-msgstr ""
+msgstr "<span weight='bold' size='larger'>Unesite lozinku za:</span>"
 
 #: ../src/interface.c:782
 msgid "_Password:"
@@ -815,7 +815,7 @@ msgstr "Uzorak:"
 
 #: ../src/interface.c:962
 msgid "example: *.txt; ac*"
-msgstr ""
+msgstr "primjer: *.txt; ac*"
 
 #: ../src/interface.c:979
 msgid "_Select"
@@ -931,6 +931,8 @@ msgid ""
 "xarchiver: %s\n"
 "Try xarchiver --help to see a full list of available command line options.\n"
 msgstr ""
+"xarchiver: %s\n"
+"Probaj xarchiver --help da biste vidjeli sve dostupne opcije naredbenog retka.\n"
 
 #: ../src/main.c:119
 #, c-format
@@ -1030,7 +1032,7 @@ msgstr "Potvrdi brisanje datoteka"
 
 #: ../src/pref_dialog.c:119
 msgid "Sort archive by filename"
-msgstr ""
+msgstr "Složi arhive po imenu datoteke"
 
 #: ../src/pref_dialog.c:122
 msgid "The filename column is sorted after loading the archive"
@@ -1046,7 +1048,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:138
 msgid "Icons size (requires restart)"
-msgstr ""
+msgstr "Veličina ikona (potreno je ponovno pokretanje)"
 
 #: ../src/pref_dialog.c:144
 msgid "large"
@@ -1070,7 +1072,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:163
 msgid "Show archive location bar"
-msgstr ""
+msgstr "Pokaži lokacijsku traku arhive"
 
 #: ../src/pref_dialog.c:185
 msgid "Web browser to use:"
@@ -1099,7 +1101,7 @@ msgstr "/tmp"
 
 #: ../src/pref_dialog.c:237
 msgid "Preferred extract directory:"
-msgstr ""
+msgstr "Poželjni direktorij raspakiranja:"
 
 #: ../src/pref_dialog.c:250
 msgid "Save window geometry"
@@ -1129,7 +1131,7 @@ msgstr "Izaberi program za uporabu"
 
 #: ../src/rar.c:63
 msgid "CRC"
-msgstr ""
+msgstr "CRC"
 
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Method"
