@@ -689,7 +689,7 @@ msgstr "Archívum _megjegyzése"
 
 #: ../src/interface.c:237
 msgid "Select _all"
-msgstr "Min_det kijelöli"
+msgstr "Összes ki_jelölése"
 
 #: ../src/interface.c:247
 msgid "Dese_lect all"
