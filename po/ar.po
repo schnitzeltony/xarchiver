@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../src/add_dialog.c:115
 msgid "Include subdirectories"
-msgstr ""
+msgstr "تتضمن الدلائل"
 
 #: ../src/add_dialog.c:119
 msgid "Create a solid archive"
-msgstr ""
+msgstr "أنشئ أرشيف صلب"
 
 #: ../src/add_dialog.c:121
 msgid "In a solid archive the files are grouped together featuring a better compression ratio"
@@ -91,15 +91,15 @@ msgstr ""
 
 #: ../src/add_dialog.c:124
 msgid "Delete files after adding"
-msgstr ""
+msgstr "حذف الملفات بعد إضافتها"
 
 #: ../src/add_dialog.c:128
 msgid "Actions: "
-msgstr ""
+msgstr "الإجراءات :"
 
 #: ../src/add_dialog.c:143
 msgid "Compression: "
-msgstr ""
+msgstr "الضغط :"
 
 #: ../src/add_dialog.c:157 ../src/extract_dialog.c:152
 msgid "Password:"
@@ -107,77 +107,77 @@ msgstr "كلمة السر :"
 
 #: ../src/add_dialog.c:167
 msgid "Encryption: "
-msgstr ""
+msgstr "التشفير :"
 
 #: ../src/add_dialog.c:180
 msgid "_Add"
-msgstr ""
+msgstr "_أضف"
 
 #: ../src/add_dialog.c:247
 msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
-msgstr ""
+msgstr "0 = بدون الضغط, 5 = إفتراضي, 9 = ضغط جبدا لكن ببطء"
 
 #: ../src/add_dialog.c:253
 msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
-msgstr ""
+msgstr "0 = بدون الضغط, 6 = إفتراضي, 9 = ضغط جبدا لكن ببطء"
 
 #: ../src/add_dialog.c:259
 msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
-msgstr ""
+msgstr "0 = بدون الضغط, 3 = إفتراضي, 5 = ضغط جبدا لكن ببطء"
 
 #: ../src/add_dialog.c:265
 msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
-msgstr ""
+msgstr "0 = بدون الضغط, 1 = إفتراضي, 4 = أسرع لكن ضغط عادي"
 
 #: ../src/add_dialog.c:271
 msgid "5 = default compression, 7 = max compression"
-msgstr ""
+msgstr "5 = الضغط الإفتراضي, 7 = أوج الضغط"
 
 #: ../src/add_dialog.c:371 ../src/main.c:228
 msgid "Can't add files to the archive:"
-msgstr ""
+msgstr "لا يمكن إضافة الملفات إلى الأرشيف :"
 
 #: ../src/add_dialog.c:371
 msgid "You haven't selected any files to add!"
-msgstr ""
+msgstr "لم تقم بتحديد أية ملفات لإضافة!"
 
 #: ../src/add_dialog.c:379 ../src/interface.c:808
 msgid "You missed the password!"
-msgstr ""
+msgstr "هل نسيت كلمة السر؛"
 
 #: ../src/add_dialog.c:379 ../src/interface.c:808
 msgid "Please enter it!"
-msgstr ""
+msgstr "من فضلك أدخلها؛"
 
 #: ../src/add_dialog.c:449
 msgid "Adding files to archive, please wait..."
-msgstr ""
+msgstr "إضافة الملفات إلى الأرشيف ، يرجى الانتظار..."
 
 #: ../src/archive.c:87
 msgid "Can't run the archiver executable:"
-msgstr ""
+msgstr "لا يمكن تشغيل أرشيف القابل للتنفيذ :"
 
 #: ../src/archive.c:373
 msgid "Can't create temporary directory:"
-msgstr ""
+msgstr "لا يمكن إنشاء الدليل المؤقت :"
 
 #: ../src/arj.c:48 ../src/gzip.c:78 ../src/lha.c:51 ../src/rar.c:63
 msgid "Ratio"
-msgstr ""
+msgstr "نسبة"
 
 #: ../src/arj.c:48
 msgid "Attributes"
-msgstr ""
+msgstr "سمات"
 
 #: ../src/bzip2.c:187 ../src/gzip.c:61 ../src/lha.c:51 ../src/rpm.c:52
 #: ../src/tar.c:54
 msgid "Points to"
-msgstr ""
+msgstr "يشير إلى"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/gzip.c:61 ../src/lha.c:51
 #: ../src/rar.c:63 ../src/tar.c:54 ../src/zip.c:49
 msgid "Permissions"
-msgstr ""
+msgstr "صلاحيات"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/gzip.c:61 ../src/tar.c:54
 msgid "Owner/Group"
