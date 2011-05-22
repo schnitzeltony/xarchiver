@@ -358,11 +358,11 @@ msgstr "اسم الملف"
 
 #: ../src/window.c:1331
 msgid "Doing so will probably corrupt your archive!"
-msgstr ""
+msgstr "القيام بذلك على الأرجح سوف يفسد الأرشيف الخاص بك!"
 
 #: ../src/window.c:1331
 msgid "Do you really want to cancel?"
-msgstr ""
+msgstr "هل حقا تريد إلغاء الأمر؟"
 
 #: ../src/window.c:1394 ../src/window.c:1409
 msgid "Yes"
@@ -399,28 +399,28 @@ msgstr[1] ""
 
 #: ../src/window.c:1680
 msgid "Can't perform another extraction:"
-msgstr ""
+msgstr "لا يمكن تنفيد إستخراج أخر:"
 
 #: ../src/window.c:1680
 msgid "Please wait until the completion of the current one!"
-msgstr ""
+msgstr "الرجاء الإنتظار حتى الإنتهاء من الحالي!"
 
 #: ../src/window.c:1713 ../src/extract_dialog.c:341
 #, c-format
 msgid "You don't have the right permissions to extract the files to the directory \"%s\"."
-msgstr ""
+msgstr "ليس لديك الصلاحيات الكافية لإستخراج الملفات إلى الدليل \"%s\"."
 
 #: ../src/window.c:1714 ../src/extract_dialog.c:342
 msgid "Can't perform extraction!"
-msgstr ""
+msgstr "لا يمكن تنفيذ إستخراج!"
 
 #: ../src/window.c:1755 ../src/extract_dialog.c:650 ../src/interface.c:1392
 msgid "Sorry,I could not perform the operation!"
-msgstr ""
+msgstr "آسف ، لم أتمكن من تنفيذ العملية!"
 
 #: ../src/window.c:1789 ../src/window.c:1801 ../src/interface.c:1385
 msgid "Can't perform this action:"
-msgstr ""
+msgstr "لا يمكن تنفيذ هذا الإجراء :"
 
 #: ../src/window.c:1789
 msgid "You have to install rar package!"
@@ -428,39 +428,39 @@ msgstr ""
 
 #: ../src/window.c:1796 ../src/interface.c:1382
 msgid "You can't add content to deb packages!"
-msgstr ""
+msgstr "لا يمكنك إضافة محتوى لحزم دبيان!"
 
 #: ../src/window.c:1798 ../src/interface.c:1384
 msgid "You can't add content to rpm packages!"
-msgstr ""
+msgstr "لا يمكنك إضافة محتوى لحزم ردهات؛"
 
 #: ../src/window.c:1800
 msgid "The archiver doesn't support this feature!"
-msgstr ""
+msgstr "الأرشيف لا يدعم هذه الميزة؛"
 
 #: ../src/window.c:1881
 msgid "You didn't set which browser to use!"
-msgstr ""
+msgstr "لم تقم بإختيار المتصفح الذي سوف تستعمله؛"
 
 #: ../src/window.c:1881 ../src/window.c:1922
 msgid "Please go to Preferences->Advanced and set it."
-msgstr ""
+msgstr "يرجى الذهاب إلى التفضبلات->متقدم وإختياره."
 
 #: ../src/window.c:1913
 msgid "This file type is not supported!"
-msgstr ""
+msgstr "هذا النوع من الملفات غير مدعوم؛"
 
 #: ../src/window.c:1913
 msgid "Please install xdg-utils package."
-msgstr ""
+msgstr "الرجاء تثبيت حزمة xdg-utils ."
 
 #: ../src/window.c:1922
 msgid "You didn't set which program to use for opening this file!"
-msgstr ""
+msgstr "لم تقم بإختيار البرنامج الذي سوف تستعمله لفتح هذا الملف؛"
 
 #: ../src/window.c:1948
 msgid "Failed to launch the application!"
-msgstr ""
+msgstr "فشل إطلاق التطبيق؛"
 
 #: ../src/window.c:2000
 msgid "Comment"
@@ -501,7 +501,7 @@ msgstr "ملفات"
 
 #: ../src/extract_dialog.c:125 ../src/extract_dialog.c:495
 msgid "Overwrite existing files"
-msgstr ""
+msgstr "الكتابة فوق الملفات الموجودة"
 
 #: ../src/extract_dialog.c:128
 msgid "Extract files with full path"
