@@ -181,79 +181,79 @@ msgstr "صلاحيات"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/gzip.c:61 ../src/tar.c:54
 msgid "Owner/Group"
-msgstr ""
+msgstr "المالك / المجموعة"
 
 #: ../src/bzip2.c:187 ../src/deb.c:45 ../src/extract_dialog.c:395
 #: ../src/gzip.c:61 ../src/gzip.c:78 ../src/lha.c:51 ../src/rpm.c:52
 #: ../src/tar.c:54
 msgid "Size"
-msgstr ""
+msgstr "حجم"
 
 #: ../src/window.c:60
 msgid "An error occurred!"
-msgstr ""
+msgstr "حدث خطأ؛"
 
 #: ../src/window.c:60
 msgid "Please check the 'Store archiver output' option to see it."
-msgstr ""
+msgstr "يرجى التحقق من الخيار 'إخراج أرشيف مخزن' لرؤيتها."
 
 #: ../src/window.c:147
 msgid "Archiver output"
-msgstr ""
+msgstr "أرشيف الإخراج"
 
 #: ../src/window.c:182
 msgid "An error occurred while accessing the archive:"
-msgstr ""
+msgstr "حدث خطأ أثناء الوصول إلى الأرشيف :"
 
 #: ../src/window.c:254
 msgid "Save the archive as"
-msgstr ""
+msgstr "حفظ الأرشيف في"
 
 #: ../src/window.c:313
 #, c-format
 msgid "Can't open file \"%s\":"
-msgstr ""
+msgstr "لا يمكن فتح الملف \"%s\":"
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
-msgstr ""
+msgstr "لم يتم التعرف على تنسيق الأرشيف!"
 
 #: ../src/window.c:339
 msgid "Sorry,this archive format is not supported:"
-msgstr ""
+msgstr "عفوا , صيغة هذا الأرشبف غير مدعومة:"
 
 #: ../src/window.c:339
 msgid "the proper archiver is not installed!"
-msgstr ""
+msgstr "لم يتم تثبيت الأرشبف المناسب؛"
 
 #: ../src/window.c:353
 msgid "Can't allocate memory for the archive structure:"
-msgstr ""
+msgstr "لا يمكن تخصيص ذاكرة لبنية الأرشيف :"
 
 #: ../src/window.c:353
 msgid "Operation aborted!"
-msgstr ""
+msgstr "إحباط عملية؛"
 
 #: ../src/window.c:378
 msgid "Opening archive,please wait..."
-msgstr ""
+msgstr "فتح الأرشيف , يرجو الإنتظار..."
 
 #: ../src/window.c:402
 msgid "Testing archive,please wait..."
-msgstr ""
+msgstr "اختبار الأرشيف ، يرجى الانتظار..."
 
 #: ../src/window.c:422
 msgid "Print the archive content as HTML"
-msgstr ""
+msgstr "HTML طباعة محتويات الأرشيف في "
 
 #: ../src/window.c:424
 msgid "Print the archive content as text"
-msgstr ""
+msgstr "طباعة محتويات الأرشيف كنص"
 
 #: ../src/window.c:475
 #, c-format
 msgid "Archive contents:\n"
-msgstr ""
+msgstr "محتوبات الأرشيف:\n"
 
 #: ../src/window.c:479
 #, c-format
@@ -261,26 +261,28 @@ msgid ""
 "\n"
 "Name: "
 msgstr ""
+"\n"
+"إسم: "
 
 #: ../src/window.c:488
 #, c-format
 msgid "Compressed   size: "
-msgstr ""
+msgstr "حجم مضغوط: "
 
 #: ../src/window.c:495
 #, c-format
 msgid "Uncompressed size: "
-msgstr ""
+msgstr "حجم غير مظغوط:"
 
 #: ../src/window.c:503
 #, c-format
 msgid "Number of files: "
-msgstr ""
+msgstr "عدد الملفات :"
 
 #: ../src/window.c:511
 #, c-format
 msgid "Comment:\n"
-msgstr ""
+msgstr "تعلبق:\n"
 
 #: ../src/window.c:524
 #, fuzzy, c-format
