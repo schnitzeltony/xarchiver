@@ -1,12 +1,12 @@
-# Dutch translations for xarchiver package.
-# Copyright (C) 2005-2006 Giuseppe Torelli.
-# Copyright (C) 2005-2006 Stephan Arts.
+# Dutch translations for the xarchiver package.
+# Copyright (C) The Xfce development team.
 # This file is distributed under the same license as the xarchiver package.
 # Stephan Arts <stephan@localhost.localdomain>, 2006.
+# Pjotr, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xarchiver 0.4.2rc2\n"
+"Project-Id-Version: xarchiver\n"
 "Report-Msgid-Bugs-To: colossus73@gmail.com\n"
 "POT-Creation-Date: 2009-08-20 15:20+0200\n"
 "PO-Revision-Date: 2008-10-24 17:19+0100\n"
