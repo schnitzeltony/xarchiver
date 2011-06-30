@@ -10,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: MOROCCO\n"
 "X-Poedit-Language: Arabic\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: MOROCCO\n"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
@@ -828,11 +828,11 @@ msgstr ""
 
 #: ../src/interface.c:979
 msgid "_Select"
-msgstr ""
+msgstr "اختار"
 
 #: ../src/interface.c:1051
 msgid "Archive Properties"
-msgstr ""
+msgstr "خصائص الأرشيف"
 
 #: ../src/interface.c:1072
 msgid "Name:"
@@ -848,19 +848,19 @@ msgstr "النوع:"
 
 #: ../src/interface.c:1093
 msgid "Encrypted:"
-msgstr ""
+msgstr "المشفرة :"
 
 #: ../src/interface.c:1100
 msgid "Modified on:"
-msgstr ""
+msgstr "تعديل في :"
 
 #: ../src/interface.c:1107
 msgid "Compressed size:"
-msgstr ""
+msgstr "حجم الضغط:"
 
 #: ../src/interface.c:1114
 msgid "Uncompressed size:"
-msgstr ""
+msgstr "الحجم غير المضغوط:"
 
 #: ../src/interface.c:1121
 msgid "Comment:"
@@ -868,35 +868,35 @@ msgstr "تعليق:"
 
 #: ../src/interface.c:1128
 msgid "Number of files:"
-msgstr ""
+msgstr "عدد الملفات :"
 
 #: ../src/interface.c:1135
 msgid "Compression ratio:"
-msgstr ""
+msgstr "نسبة الضغط:"
 
 #: ../src/interface.c:1499 ../xarchiver.desktop.in.h:3
 msgid "Xarchiver"
-msgstr ""
+msgstr "Xarchiver"
 
 #: ../src/interface.c:1526
 msgid "Extracting from archive:"
-msgstr ""
+msgstr "استخراج من الأرشيف :"
 
 #: ../src/interface.c:1528
 msgid "Adding to archive:"
-msgstr ""
+msgstr "إضافة إلى الأرشيف :"
 
 #: ../src/interface.c:1548
 msgid "Total Progress:"
-msgstr ""
+msgstr "إجمالي التقدم :"
 
 #: ../src/main.c:58
 msgid "Extract archive to the destination directory and quits."
-msgstr ""
+msgstr "الخروج بعد استخراج الأرشيف إلى الدليل الوجهة"
 
 #: ../src/main.c:59
 msgid "destination archive"
-msgstr ""
+msgstr "وجهة الأرشيف"
 
 #: ../src/main.c:62
 msgid "Extract archive by asking the extraction directory and quits."
@@ -912,7 +912,7 @@ msgstr ""
 
 #: ../src/main.c:67
 msgid "filenames"
-msgstr ""
+msgstr "اسم الملف"
 
 #: ../src/main.c:70
 msgid "Add the given files by asking the name of the archive and quits."
@@ -928,7 +928,7 @@ msgstr ""
 
 #: ../src/main.c:78
 msgid "Show version and exit"
-msgstr ""
+msgstr "عرض الإصدار  ثم الخروج"
 
 #: ../src/main.c:105
 msgid "[archive name]"
@@ -976,8 +976,9 @@ msgid "Browse"
 msgstr "تصفح"
 
 #: ../src/open-with-dlg.c:311
+#, fuzzy
 msgid "Select an application"
-msgstr ""
+msgstr "حدد تطبيق"
 
 #: ../src/new_dialog.c:55
 msgid "Cr_eate"
@@ -1001,8 +1002,9 @@ msgid "\"%s\" is already open!"
 msgstr ""
 
 #: ../src/new_dialog.c:160
+#, fuzzy
 msgid "Can't create a new archive:"
-msgstr ""
+msgstr "لا يمكن إنشاء أرشيف جديد :"
 
 #: ../src/new_dialog.c:175
 #, c-format
@@ -1010,8 +1012,9 @@ msgid "The archive \"%s\" already exists!"
 msgstr ""
 
 #: ../src/new_dialog.c:181
+#, fuzzy
 msgid "Do you want to overwrite it?"
-msgstr ""
+msgstr "هل تريد الكتابة فوقه؟"
 
 #: ../src/pref_dialog.c:41
 msgid "Preferences"
@@ -1034,12 +1037,13 @@ msgid "Preferred archive format"
 msgstr ""
 
 #: ../src/pref_dialog.c:115
+#, fuzzy
 msgid "Confirm deletion of files"
-msgstr ""
+msgstr "تأكيد حذف الملفات"
 
 #: ../src/pref_dialog.c:119
 msgid "Sort archive by filename"
-msgstr ""
+msgstr "فرز حسب اسم ملفات الأرشيف"
 
 #: ../src/pref_dialog.c:122
 msgid "The filename column is sorted after loading the archive"
@@ -1047,7 +1051,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:124
 msgid "Store archiver output"
-msgstr ""
+msgstr "تخزين ناتج الأرشيف"
 
 #: ../src/pref_dialog.c:127
 msgid "This option takes more memory with large archives"
@@ -1067,7 +1071,7 @@ msgstr "صغير"
 
 #: ../src/pref_dialog.c:150
 msgid "Show archive comment"
-msgstr ""
+msgstr "عرض تعليق الأرشيف"
 
 #: ../src/pref_dialog.c:151
 msgid "If checked the archive comment is shown after the archive is loaded"
@@ -1075,11 +1079,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c:157
 msgid "Show archive tree sidebar"
-msgstr ""
+msgstr "عرض شجرة الأرشيف  الجانبية"
 
 #: ../src/pref_dialog.c:163
 msgid "Show archive location bar"
-msgstr ""
+msgstr "عرض شريط أرشيف الموقع"
 
 #: ../src/pref_dialog.c:185
 msgid "Web browser to use:"
@@ -1092,11 +1096,11 @@ msgstr "إختر..."
 
 #: ../src/pref_dialog.c:198
 msgid "Open text files with:"
-msgstr ""
+msgstr "فتح الملفات النصية باستخدام:"
 
 #: ../src/pref_dialog.c:211
 msgid "Open image files with:"
-msgstr ""
+msgstr "فتح الصور باستخدام:"
 
 #: ../src/pref_dialog.c:224
 msgid "Preferred temp directory:"
@@ -1130,19 +1134,22 @@ msgstr ""
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the directory to use"
-msgstr ""
+msgstr "اختر دليل للاستخدام"
 
 #: ../src/pref_dialog.c:581
+#, fuzzy
 msgid "Choose the application to use"
-msgstr ""
+msgstr "اختر التطبيق لاستخدام"
 
 #: ../src/rar.c:63
+#, fuzzy
 msgid "CRC"
-msgstr ""
+msgstr "CRC"
 
 #: ../src/rar.c:63 ../src/zip.c:49
+#, fuzzy
 msgid "Method"
-msgstr ""
+msgstr "طريقة"
 
 #: ../src/rar.c:63 ../src/zip.c:49
 msgid "Version"
@@ -1190,5 +1197,6 @@ msgid "A GTK+2 only archive manager"
 msgstr ""
 
 #: ../xarchiver.desktop.in.h:2
+#, fuzzy
 msgid "Archive manager"
-msgstr ""
+msgstr "مدير الأرشيف"
