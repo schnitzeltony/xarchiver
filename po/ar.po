@@ -658,51 +658,57 @@ msgstr "اختبار"
 
 #: ../src/interface.c:137
 msgid "_Properties"
-msgstr ""
+msgstr "خصائص"
 
 #: ../src/interface.c:161
 msgid "A_ction"
-msgstr ""
+msgstr "أحداث"
 
 #: ../src/interface.c:168
 msgid "A_dd"
-msgstr ""
+msgstr "إضافة"
 
 #: ../src/interface.c:194
 msgid "Re_name"
-msgstr ""
+msgstr "إعادة تسمية"
 
 #: ../src/interface.c:208
 msgid "Make SF_X"
-msgstr ""
+msgstr "عين SF_X"
 
 #: ../src/interface.c:218
+#, fuzzy
 msgid "_Multi-Extract"
-msgstr ""
+msgstr "استخراج متعددة"
 
 #: ../src/interface.c:223
+#, fuzzy
 msgid "Archive _comment"
-msgstr ""
+msgstr "تعليق الأرشيف"
 
 #: ../src/interface.c:237
+#, fuzzy
 msgid "Select _all"
-msgstr ""
+msgstr "اختيار الكل"
 
 #: ../src/interface.c:247
+#, fuzzy
 msgid "Dese_lect all"
-msgstr ""
+msgstr "عدم اختيار الكل"
 
 #: ../src/interface.c:253
+#, fuzzy
 msgid "Select _by pattern"
-msgstr ""
+msgstr "اختيار حسب نمط"
 
 #: ../src/interface.c:264
 msgid "Cmd-line outp_ut"
 msgstr ""
 
 #: ../src/interface.c:277
+#, fuzzy
 msgid "Enter passwo_rd"
-msgstr ""
+msgstr "ادخل الرقم السري"
 
 #: ../src/interface.c:288
 msgid "_Preferences"
@@ -717,12 +723,14 @@ msgid "_Contents"
 msgstr "الم_حتويات"
 
 #: ../src/interface.c:313
+#, fuzzy
 msgid "_Donate"
-msgstr ""
+msgstr "تبرع"
 
 #: ../src/interface.c:333 ../src/new_dialog.c:50
+#, fuzzy
 msgid "Create a new archive"
-msgstr ""
+msgstr "إنشاء أرشيف جديد"
 
 #: ../src/interface.c:352
 msgid "Back"
@@ -741,16 +749,18 @@ msgid "Root"
 msgstr "جذز"
 
 #: ../src/interface.c:408
+#, fuzzy
 msgid "Cancel current operation"
-msgstr ""
+msgstr "إلغاء العملية الحالية"
 
 #: ../src/interface.c:421
 msgid "Location:"
 msgstr "المكان:"
 
 #: ../src/interface.c:460
+#, fuzzy
 msgid "Archive tree"
-msgstr ""
+msgstr "شجرة الأرشفة"
 
 #: ../src/interface.c:508
 msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
@@ -758,7 +768,7 @@ msgstr ""
 
 #: ../src/interface.c:677
 msgid "Close archive"
-msgstr ""
+msgstr "إغلاق الأرشيف"
 
 #: ../src/interface.c:762
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
