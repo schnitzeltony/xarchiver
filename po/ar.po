@@ -806,11 +806,11 @@ msgstr "أعد التسمية"
 
 #: ../src/interface.c:944
 msgid "Select by Pattern"
-msgstr ""
+msgstr "حدد بواسطة نمط"
 
 #: ../src/interface.c:957
 msgid "Pattern:"
-msgstr ""
+msgstr "نمط :"
 
 #: ../src/interface.c:962
 msgid "example: *.txt; ac*"
@@ -925,7 +925,7 @@ msgid "[archive name]"
 msgstr "[اسم الأرشيف]"
 
 #: ../src/main.c:109
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "xarchiver: %s\n"
 "Try xarchiver --help to see a full list of available command line options.\n"
