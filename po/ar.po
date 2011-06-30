@@ -75,7 +75,6 @@ msgid "Freshen and replace"
 msgstr "تنشيط و إستبدال"
 
 #: ../src/add_dialog.c:111
-#, fuzzy
 msgid "This option affects the archive only if it has been modified more recently than the version already in the archive; unlike the update option it will not add files that are not already in the archive"
 msgstr "هذا الخيار يؤثر في الأرشيف الذي تم تعديله مؤخراً فقط، على عكس خيار التحديث فإنه لن يضيف الملفات التي لم يتم تحديثها في الأرشيف"
 
@@ -88,7 +87,6 @@ msgid "Create a solid archive"
 msgstr "أنشئ أرشيف صلب"
 
 #: ../src/add_dialog.c:121
-#, fuzzy
 msgid "In a solid archive the files are grouped together featuring a better compression ratio"
 msgstr "في الأرشيف الثابت يتم تجميع الملفات معا يتميز بوجود نسبة ضغط أفضل"
 
@@ -307,7 +305,6 @@ msgid "<th>Compressed:</th>"
 msgstr "<th>مضغوط:</th>"
 
 #: ../src/window.c:617 ../src/main.c:276
-#, fuzzy
 msgid "Select \"New\" to create or \"Open\" to open an archive"
 msgstr "اختر \"جديد\" لإنشاء أو  \"فتح\" لفتح الارشيف"
 
@@ -426,7 +423,6 @@ msgid "Can't perform this action:"
 msgstr "لا يمكن تنفيذ هذا الإجراء :"
 
 #: ../src/window.c:1789
-#, fuzzy
 msgid "You have to install rar package!"
 msgstr "يجب تثبيت حزمة rar"
 
@@ -520,7 +516,6 @@ msgid "Touch files"
 msgstr "لمسة الملفات"
 
 #: ../src/extract_dialog.c:133
-#, fuzzy
 msgid "When this option is used,tar leaves the data modification times of the files it extracts as the times when the files were extracted,instead of setting it to the times recorded in the archive"
 msgstr "عند استخدام هذا الخيار، tar يترك تاريخ تعديل بيانات الملفات المستخرجة بتاريخ استخراج الملفات ، بدلا من تعيينها إلى الأوقات المسجلة في أرشيف"
 
@@ -533,7 +528,6 @@ msgid "Extract only those files that already exist on disk and that are newer th
 msgstr "استخراج فقط الملفات الموجودة بالفعل على القرص والأحدث من نسخ القرص"
 
 #: ../src/extract_dialog.c:141
-#, fuzzy
 msgid "Update existing files"
 msgstr "تحديث الملفات المستخرجة"
 
@@ -603,7 +597,6 @@ msgid "Destination dirs:"
 msgstr "مجلد الوجهة :"
 
 #: ../src/extract_dialog.c:497
-#, fuzzy
 msgid "Extract pathnames"
 msgstr "مسار الاستخراج"
 
@@ -612,12 +605,10 @@ msgid "Options:"
 msgstr "خيارات:"
 
 #: ../src/extract_dialog.c:531
-#, fuzzy
 msgid "Please select the archives you want to extract"
 msgstr "الرجاء اختيار الارشيف الذي تريد استخراج"
 
 #: ../src/extract_dialog.c:672
-#, fuzzy
 msgid "Please select the destination directory"
 msgstr "الرجاء اختيار دليل الوجهة"
 
@@ -630,7 +621,6 @@ msgid "You haven't added any of them!"
 msgstr "لم تقم بإضافة أي واحد منهم!"
 
 #: ../src/extract_dialog.c:723
-#, fuzzy
 msgid "Please fill the \"Extract to\" field!"
 msgstr "الرجاء ملئ خانة \"Extract to\"!"
 
@@ -659,7 +649,6 @@ msgid "_Text file"
 msgstr "ملف نصي"
 
 #: ../src/interface.c:110
-#, fuzzy
 msgid "_HTML file"
 msgstr "ملف _HTML"
 
