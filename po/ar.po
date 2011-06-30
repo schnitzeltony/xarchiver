@@ -10,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: MOROCCO\n"
 "X-Poedit-Language: Arabic\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: MOROCCO\n"
 
 #: ../src/7zip.c:57 ../src/arj.c:48 ../src/bzip2.c:104 ../src/rar.c:63
 #: ../src/zip.c:49
@@ -677,27 +677,22 @@ msgid "Make SF_X"
 msgstr "عين SF_X"
 
 #: ../src/interface.c:218
-#, fuzzy
 msgid "_Multi-Extract"
 msgstr "استخراج متعددة"
 
 #: ../src/interface.c:223
-#, fuzzy
 msgid "Archive _comment"
 msgstr "تعليق الأرشيف"
 
 #: ../src/interface.c:237
-#, fuzzy
 msgid "Select _all"
 msgstr "اختيار الكل"
 
 #: ../src/interface.c:247
-#, fuzzy
 msgid "Dese_lect all"
 msgstr "عدم اختيار الكل"
 
 #: ../src/interface.c:253
-#, fuzzy
 msgid "Select _by pattern"
 msgstr "اختيار حسب نمط"
 
@@ -706,7 +701,6 @@ msgid "Cmd-line outp_ut"
 msgstr ""
 
 #: ../src/interface.c:277
-#, fuzzy
 msgid "Enter passwo_rd"
 msgstr "ادخل الرقم السري"
 
@@ -723,12 +717,10 @@ msgid "_Contents"
 msgstr "الم_حتويات"
 
 #: ../src/interface.c:313
-#, fuzzy
 msgid "_Donate"
 msgstr "تبرع"
 
 #: ../src/interface.c:333 ../src/new_dialog.c:50
-#, fuzzy
 msgid "Create a new archive"
 msgstr "إنشاء أرشيف جديد"
 
@@ -749,7 +741,6 @@ msgid "Root"
 msgstr "جذز"
 
 #: ../src/interface.c:408
-#, fuzzy
 msgid "Cancel current operation"
 msgstr "إلغاء العملية الحالية"
 
@@ -758,7 +749,6 @@ msgid "Location:"
 msgstr "المكان:"
 
 #: ../src/interface.c:460
-#, fuzzy
 msgid "Archive tree"
 msgstr "شجرة الأرشفة"
 
@@ -932,7 +922,7 @@ msgstr "عرض الإصدار  ثم الخروج"
 
 #: ../src/main.c:105
 msgid "[archive name]"
-msgstr ""
+msgstr "[اسم الأرشيف]"
 
 #: ../src/main.c:109
 #, c-format
@@ -944,75 +934,72 @@ msgstr ""
 #: ../src/main.c:119
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "يرجى تقرير العلل إلى <%s>."
 
 #: ../src/main.c:146 ../src/main.c:169
 msgid "Can't extract files from the archive:"
-msgstr ""
+msgstr "لا يمكن استخراج الملفات من الأرشيف :"
 
 #: ../src/main.c:146 ../src/main.c:169 ../src/main.c:228
 msgid "You missed the archive name!\n"
-msgstr ""
+msgstr "لم تدخل اسم المحفوظات!\n"
 
 #: ../src/main.c:534
 msgid "Can't allocate memory for the archive structure!"
-msgstr ""
+msgstr "لا يمكن تخصيص ذاكرة لهيكلة الأرشيف!"
 
 #: ../src/open-with-dlg.c:54
 msgid "Open the selected files with"
-msgstr ""
+msgstr "فتح الملفات المحددة مع"
 
 #: ../src/open-with-dlg.c:83
 #, c-format
 msgid "Open <i>%s</i> with:"
-msgstr ""
+msgstr "افتح <i>%s</i> باستخدام:"
 
 #: ../src/open-with-dlg.c:118
 msgid "Use a custom command:"
-msgstr ""
+msgstr "استخدام أمر مخصص :"
 
 #: ../src/open-with-dlg.c:126
 msgid "Browse"
 msgstr "تصفح"
 
 #: ../src/open-with-dlg.c:311
-#, fuzzy
 msgid "Select an application"
 msgstr "حدد تطبيق"
 
 #: ../src/new_dialog.c:55
 msgid "Cr_eate"
-msgstr ""
+msgstr "إنشاء"
 
 #: ../src/new_dialog.c:92
 msgid "Archive type:"
-msgstr ""
+msgstr "نوع الأرشيف:"
 
 #: ../src/new_dialog.c:97
 msgid "Choose the archive type to create"
-msgstr ""
+msgstr "اختيار نوع لإنشاء أرشيف"
 
 #: ../src/new_dialog.c:112
 msgid "Add the archive extension to the filename"
-msgstr ""
+msgstr "إضافة ملحق إلى اسم ملف أرشيف"
 
 #: ../src/new_dialog.c:159
 #, c-format
 msgid "\"%s\" is already open!"
-msgstr ""
+msgstr "\"%s\" مفتوح بالفعل!"
 
 #: ../src/new_dialog.c:160
-#, fuzzy
 msgid "Can't create a new archive:"
 msgstr "لا يمكن إنشاء أرشيف جديد :"
 
 #: ../src/new_dialog.c:175
 #, c-format
 msgid "The archive \"%s\" already exists!"
-msgstr ""
+msgstr "الأرشيف \"%s\" منشأ مسبقاً!"
 
 #: ../src/new_dialog.c:181
-#, fuzzy
 msgid "Do you want to overwrite it?"
 msgstr "هل تريد الكتابة فوقه؟"
 
@@ -1034,10 +1021,9 @@ msgstr "متقدم"
 
 #: ../src/pref_dialog.c:97
 msgid "Preferred archive format"
-msgstr ""
+msgstr "تنسيق الأرشيف المفضل"
 
 #: ../src/pref_dialog.c:115
-#, fuzzy
 msgid "Confirm deletion of files"
 msgstr "تأكيد حذف الملفات"
 
@@ -1047,7 +1033,7 @@ msgstr "فرز حسب اسم ملفات الأرشيف"
 
 #: ../src/pref_dialog.c:122
 msgid "The filename column is sorted after loading the archive"
-msgstr ""
+msgstr "فرز عمود اسم الملف بعد تحميل الأرشيف"
 
 #: ../src/pref_dialog.c:124
 msgid "Store archiver output"
@@ -1055,11 +1041,11 @@ msgstr "تخزين ناتج الأرشيف"
 
 #: ../src/pref_dialog.c:127
 msgid "This option takes more memory with large archives"
-msgstr ""
+msgstr "هذا الخيار يستهلك ذاكرة أكثر مع الأرشيف الكبير"
 
 #: ../src/pref_dialog.c:138
 msgid "Icons size (requires restart)"
-msgstr ""
+msgstr "حجم الأيقونة (يتطلب إعادة التشغيل)"
 
 #: ../src/pref_dialog.c:144
 msgid "large"
@@ -1075,7 +1061,7 @@ msgstr "عرض تعليق الأرشيف"
 
 #: ../src/pref_dialog.c:151
 msgid "If checked the archive comment is shown after the archive is loaded"
-msgstr ""
+msgstr "إذا حددت يظهر تعليق بعد تحميل أرشيفة الأرشيف"
 
 #: ../src/pref_dialog.c:157
 msgid "Show archive tree sidebar"
@@ -1087,7 +1073,7 @@ msgstr "عرض شريط أرشيف الموقع"
 
 #: ../src/pref_dialog.c:185
 msgid "Web browser to use:"
-msgstr ""
+msgstr "متصفح ويب المستخدم :"
 
 #: ../src/pref_dialog.c:192 ../src/pref_dialog.c:205 ../src/pref_dialog.c:218
 #: ../src/pref_dialog.c:231 ../src/pref_dialog.c:244
@@ -1104,7 +1090,7 @@ msgstr "فتح الصور باستخدام:"
 
 #: ../src/pref_dialog.c:224
 msgid "Preferred temp directory:"
-msgstr ""
+msgstr "الدليل مؤقت المفضل:"
 
 #: ../src/pref_dialog.c:230 ../src/pref_dialog.c:243
 msgid "/tmp"
@@ -1112,7 +1098,7 @@ msgstr "/tmp"
 
 #: ../src/pref_dialog.c:237
 msgid "Preferred extract directory:"
-msgstr ""
+msgstr "دليل الأرشيف المفضل:"
 
 #: ../src/pref_dialog.c:250
 msgid "Save window geometry"
@@ -1120,7 +1106,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c:255
 msgid "Allow subdirs with drag and drop"
-msgstr ""
+msgstr "تسمح سحب وإسقاط للدليل فرعي"
 
 #: ../src/pref_dialog.c:259
 msgid "This option includes the subdirectories when you add files with drag and drop"
@@ -1137,17 +1123,14 @@ msgid "Choose the directory to use"
 msgstr "اختر دليل للاستخدام"
 
 #: ../src/pref_dialog.c:581
-#, fuzzy
 msgid "Choose the application to use"
 msgstr "اختر التطبيق لاستخدام"
 
 #: ../src/rar.c:63
-#, fuzzy
 msgid "CRC"
 msgstr "CRC"
 
 #: ../src/rar.c:63 ../src/zip.c:49
-#, fuzzy
 msgid "Method"
 msgstr "طريقة"
 
@@ -1182,7 +1165,7 @@ msgstr ""
 
 #: ../src/rpm.c:68 ../src/rpm.c:84
 msgid "Can't read data from file:"
-msgstr ""
+msgstr "لا يمكن قراءة البيانات من الملف :"
 
 #: ../src/rpm.c:78
 msgid "Can't fseek in file:"
@@ -1197,6 +1180,5 @@ msgid "A GTK+2 only archive manager"
 msgstr ""
 
 #: ../xarchiver.desktop.in.h:2
-#, fuzzy
 msgid "Archive manager"
 msgstr "مدير الأرشيف"
