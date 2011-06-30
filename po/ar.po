@@ -697,7 +697,6 @@ msgid "Select _by pattern"
 msgstr "اختيار حسب نمط"
 
 #: ../src/interface.c:264
-#, fuzzy
 msgid "Cmd-line outp_ut"
 msgstr "Cmd-line مخرجات"
 
@@ -754,7 +753,6 @@ msgid "Archive tree"
 msgstr "شجرة الأرشفة"
 
 #: ../src/interface.c:508
-#, fuzzy
 msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
 msgstr "هذا هو وضع Xarchiver عندما يومض يكون Xarchiver مشغولاً"
 
@@ -763,12 +761,10 @@ msgid "Close archive"
 msgstr "إغلاق الأرشيف"
 
 #: ../src/interface.c:762
-#, fuzzy
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
 msgstr "<span weight='bold' size='larger'>كلمة المرور مطلوبة:</span>"
 
 #: ../src/interface.c:764
-#, fuzzy
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
 msgstr "<span weight='bold' size='larger'>ادخل كلمة المرور ل:</span>"
 
@@ -1119,7 +1115,6 @@ msgid "This option includes the subdirectories when you add files with drag and 
 msgstr "هذا الخيار يتضمن الأدلة الفرعية عند إضافة الملفات بالسحب الإسقاط"
 
 #: ../src/pref_dialog.c:264
-#, fuzzy
 msgid ""
 "<span color='red' style='italic'>Please install xdg-utils package so that\n"
 "Xarchiver can recognize more file types.</span>"
