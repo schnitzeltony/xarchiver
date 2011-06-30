@@ -890,7 +890,7 @@ msgstr "وجهة الأرشيف"
 
 #: ../src/main.c:62
 msgid "Extract archive by asking the extraction directory and quits."
-msgstr ""
+msgstr "السؤال عن دليل استخراج الارشيف ثم الخروج"
 
 #: ../src/main.c:63 ../src/main.c:75
 msgid "archive"
@@ -898,7 +898,7 @@ msgstr "أرشيف"
 
 #: ../src/main.c:66
 msgid "Multi-extract archives"
-msgstr ""
+msgstr "استخراج أرشيف متعددة"
 
 #: ../src/main.c:67
 msgid "filenames"
@@ -906,15 +906,16 @@ msgstr "اسم الملف"
 
 #: ../src/main.c:70
 msgid "Add the given files by asking the name of the archive and quits."
-msgstr ""
+msgstr "إضافة الملفات المحدد بالسؤال عن اسم الارشيف ثم الخروج."
 
 #: ../src/main.c:71
+#, fuzzy
 msgid "file1 file2 file3 ... fileN"
-msgstr ""
+msgstr "ملف1 ملف2 ملف3 ... ملفN"
 
 #: ../src/main.c:74
 msgid "Add files to archive by asking their filenames and quits."
-msgstr ""
+msgstr "إضافة الملفات للأرشيف بالسؤال عن أسمها ثم الخروج."
 
 #: ../src/main.c:78
 msgid "Show version and exit"
@@ -1102,7 +1103,7 @@ msgstr "دليل الأرشيف المفضل:"
 
 #: ../src/pref_dialog.c:250
 msgid "Save window geometry"
-msgstr ""
+msgstr "حفظ موقع النافذة"
 
 #: ../src/pref_dialog.c:255
 msgid "Allow subdirs with drag and drop"
@@ -1110,7 +1111,7 @@ msgstr "تسمح سحب وإسقاط للدليل فرعي"
 
 #: ../src/pref_dialog.c:259
 msgid "This option includes the subdirectories when you add files with drag and drop"
-msgstr ""
+msgstr "هذا الخيار يتضمن الأدلة الفرعية عند إضافة الملفات بالسحب الإسقاط"
 
 #: ../src/pref_dialog.c:264
 msgid ""
@@ -1141,15 +1142,15 @@ msgstr "إصدار"
 #: ../src/rpm.c:39
 #, c-format
 msgid "Can't open RPM file %s:"
-msgstr ""
+msgstr "لا يمكن فتح ملف RPM %s:"
 
 #: ../src/rpm.c:52
 msgid "Permission"
-msgstr ""
+msgstr "إذن"
 
 #: ../src/rpm.c:52
 msgid "Hard Link"
-msgstr ""
+msgstr "الارتباط الثابت"
 
 #: ../src/rpm.c:52
 msgid "Owner"
@@ -1161,7 +1162,7 @@ msgstr "مجموعة"
 
 #: ../src/rpm.c:62
 msgid "Can't fseek to position 104:"
-msgstr ""
+msgstr "لا يمكن للموقع fseek 104 :"
 
 #: ../src/rpm.c:68 ../src/rpm.c:84
 msgid "Can't read data from file:"
@@ -1169,7 +1170,7 @@ msgstr "لا يمكن قراءة البيانات من الملف :"
 
 #: ../src/rpm.c:78
 msgid "Can't fseek in file:"
-msgstr ""
+msgstr "لا يمكن fseek في الملف :"
 
 #: ../src/zip.c:49
 msgid "OS"
@@ -1177,7 +1178,7 @@ msgstr "نظام التشغيل"
 
 #: ../xarchiver.desktop.in.h:1
 msgid "A GTK+2 only archive manager"
-msgstr ""
+msgstr "A GTK +2 مدير أرشيف فقط"
 
 #: ../xarchiver.desktop.in.h:2
 msgid "Archive manager"
