@@ -380,22 +380,22 @@ msgstr "محددة"
 #, c-format, fuzzy
 msgid "%d file and %d dir %s (%s)"
 msgid_plural "%d files and %d dirs %s (%s)"
-msgstr[0] "%d ملف و  %d مجلد %s (%s)"
-msgstr[1] "%d ملفات و %d dirs %s (%s)"
+msgstr[0] "%d file and %d dir %s (%s)"
+msgstr[1] "%d files and %d dirs %s (%s)"
 
 #: ../src/window.c:1621
 #, c-format, fuzzy
 msgid "%d dir %s (%s)"
 msgid_plural "%d dirs %s (%s)"
-msgstr[0] "%d مجلد %s (%s)"
-msgstr[1] "%d مجلدات %s (%s)"
+msgstr[0] "%d dir %s (%s)"
+msgstr[1] "%d dirs %s (%s)"
 
 #: ../src/window.c:1624
 #, c-format, fuzzy
 msgid "%d file %s (%s)"
 msgid_plural "%d files %s (%s)"
-msgstr[0] "%d ملف %s (%s)"
-msgstr[1] "%d ملفات %s (%s)"
+msgstr[0] "%d file %s (%s)"
+msgstr[1] "%d files %s (%s)"
 
 #: ../src/window.c:1680
 msgid "Can't perform another extraction:"
