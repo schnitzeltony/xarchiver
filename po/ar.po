@@ -521,19 +521,20 @@ msgstr ""
 
 #: ../src/extract_dialog.c:136
 msgid "Freshen existing files"
-msgstr ""
+msgstr "إنعاش الملفات الموجودة"
 
 #: ../src/extract_dialog.c:137
 msgid "Extract only those files that already exist on disk and that are newer than the disk copies"
-msgstr ""
+msgstr "استخراج فقط الملفات الموجودة بالفعل على القرص والأحدث من نسخ القرص"
 
 #: ../src/extract_dialog.c:141
+#, fuzzy
 msgid "Update existing files"
-msgstr ""
+msgstr "تحديث الملفات الموجودة"
 
 #: ../src/extract_dialog.c:142
 msgid "This option performs the same function as the freshen one,extracting files that are newer than those with the same name on disk,and in addition it extracts those files that do not already exist on disk"
-msgstr ""
+msgstr "وظيفة هذا الخيار مثل وظيفة تجديد الملف، استخراج الملفات الأحدث من التي تحمل الاسم نفسه على القرص ، بالإضافة إلى ذلك فإنه سستخرج الملفات التي لم تكن موجودة بالفعل على القرص."
 
 #: ../src/extract_dialog.c:146
 msgid "Options "
@@ -554,23 +555,23 @@ msgstr "إستخراج الملفات"
 
 #: ../src/extract_dialog.c:317 ../src/extract_dialog.c:723
 msgid "You missed where to extract the files!"
-msgstr ""
+msgstr "لم تحدد مكان استخراج الملفات!"
 
 #: ../src/extract_dialog.c:317
 msgid "Please enter the extraction path."
-msgstr ""
+msgstr "الرجاء أدخل مسار الاستخراج."
 
 #: ../src/extract_dialog.c:331
 msgid "This archive is encrypted!"
-msgstr ""
+msgstr "هذا الأرشيف مشفرة!"
 
 #: ../src/extract_dialog.c:331
 msgid "Please enter the password."
-msgstr ""
+msgstr "الرجاء إدخال كلمة المرور."
 
 #: ../src/extract_dialog.c:378
 msgid "Extracting files from archive,please wait..."
-msgstr ""
+msgstr "استخراج الملفات من الأرشيف ، يرجى الانتظار..."
 
 #: ../src/extract_dialog.c:395
 msgid "Archive Name"
@@ -582,19 +583,19 @@ msgstr "مسار"
 
 #: ../src/extract_dialog.c:407
 msgid "Multi-Extract"
-msgstr ""
+msgstr "استخراج متعددة"
 
 #: ../src/extract_dialog.c:478
 msgid "Extract to dir \"Archive Name\""
-msgstr ""
+msgstr "استخراج إلى دليل \"Archive Name\""
 
 #: ../src/extract_dialog.c:479
 msgid "This option extracts archives in directories named with the archive names"
-msgstr ""
+msgstr "هذا الخيار يستخرج الأرشيف إلى مجلد اسمه اسم الارشف"
 
 #: ../src/extract_dialog.c:483
 msgid "Destination dirs:"
-msgstr ""
+msgstr "مجلد الوجهة :"
 
 #: ../src/extract_dialog.c:497
 msgid "Extract pathnames"
