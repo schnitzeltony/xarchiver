@@ -697,8 +697,9 @@ msgid "Select _by pattern"
 msgstr "اختيار حسب نمط"
 
 #: ../src/interface.c:264
+#, fuzzy
 msgid "Cmd-line outp_ut"
-msgstr ""
+msgstr "Cmd-line مخرجات"
 
 #: ../src/interface.c:277
 msgid "Enter passwo_rd"
@@ -753,20 +754,23 @@ msgid "Archive tree"
 msgstr "شجرة الأرشفة"
 
 #: ../src/interface.c:508
+#, fuzzy
 msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
-msgstr ""
+msgstr "هذا هو وضع Xarchiver عندما يومض يكون Xarchiver مشغولاً"
 
 #: ../src/interface.c:677
 msgid "Close archive"
 msgstr "إغلاق الأرشيف"
 
 #: ../src/interface.c:762
+#, fuzzy
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
-msgstr ""
+msgstr "<span weight='bold' size='larger'>كلمة المرور مطلوبة:</span>"
 
 #: ../src/interface.c:764
+#, fuzzy
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
-msgstr ""
+msgstr "<span weight='bold' size='larger'>ادخل كلمة المرور ل:</span>"
 
 #: ../src/interface.c:782
 msgid "_Password:"
@@ -814,7 +818,7 @@ msgstr ""
 
 #: ../src/interface.c:962
 msgid "example: *.txt; ac*"
-msgstr ""
+msgstr "مثلاً: *.txt; ac*"
 
 #: ../src/interface.c:979
 msgid "_Select"
@@ -909,7 +913,6 @@ msgid "Add the given files by asking the name of the archive and quits."
 msgstr "إضافة الملفات المحدد بالسؤال عن اسم الارشيف ثم الخروج."
 
 #: ../src/main.c:71
-#, fuzzy
 msgid "file1 file2 file3 ... fileN"
 msgstr "ملف1 ملف2 ملف3 ... ملفN"
 
@@ -926,11 +929,13 @@ msgid "[archive name]"
 msgstr "[اسم الأرشيف]"
 
 #: ../src/main.c:109
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "xarchiver: %s\n"
 "Try xarchiver --help to see a full list of available command line options.\n"
 msgstr ""
+"xarchiver: %s\n"
+"جرب xarchiver --مساعدة لعرض قائمة بخيارات سطر الأوامر المتاحة.\n"
 
 #: ../src/main.c:119
 #, c-format
@@ -1114,10 +1119,13 @@ msgid "This option includes the subdirectories when you add files with drag and 
 msgstr "هذا الخيار يتضمن الأدلة الفرعية عند إضافة الملفات بالسحب الإسقاط"
 
 #: ../src/pref_dialog.c:264
+#, fuzzy
 msgid ""
 "<span color='red' style='italic'>Please install xdg-utils package so that\n"
 "Xarchiver can recognize more file types.</span>"
 msgstr ""
+"<span color='red' style='italic'>الرجاء تثبيت الحزمة xdg-utils ليتمكن\n"
+"Xarchiver من دعم صيغ ملفات اكثر.</span>"
 
 #: ../src/pref_dialog.c:581
 msgid "Choose the directory to use"
