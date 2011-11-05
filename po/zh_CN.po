@@ -77,7 +77,7 @@ msgid ""
 "This option will add any new files and update any files which have been "
 "modified since the archive was last created/modified"
 msgstr ""
-"选中此选项将添加全部新文件，并将归档文件中已有的文件替换为它的更新版本"
+"此项将添加并更新自从归档上次创建/修改后的任何新文件修改"
 
 #: ../src/add_dialog.c:108
 msgid "Freshen and replace"
