@@ -5,15 +5,16 @@
 # Chris K. Zhang <plutino@gmail.com>, 2009.
 # Aron Xu <aronmalache@163.com>, 2009.
 # Hunt Xu <huntxu@live.cn>, 2009.
-#
+# Chipong Luo <chipong_l@yahoo.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: xarchiver 0.4.6\n"
+"Project-Id-Version: xarchiver\n"
 "Report-Msgid-Bugs-To: colossus73@gmail.com\n"
 "POT-Creation-Date: 2009-08-20 15:20+0200\n"
 "PO-Revision-Date: 2009-10-21 13:57+0800\n"
-"Last-Translator: Hunt Xu <huntxu@live.cn>\n"
+"Last-Translator: Chipong Luo <chipong_l@yahoo.com>\n"
 "Language-Team: Simplified Chinese <xfce-i18n@xfce.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,15 +54,15 @@ msgstr "选择"
 
 #: ../src/add_dialog.c:66
 msgid "File Paths: "
-msgstr "文件路径:"
+msgstr "文件路径："
 
 #: ../src/add_dialog.c:72
 msgid "Store full paths"
-msgstr "保存完整路径"
+msgstr "储存完整路径"
 
 #: ../src/add_dialog.c:76
 msgid "Do not store paths"
-msgstr "不保存路径"
+msgstr "不储存路径"
 
 #: ../src/add_dialog.c:85
 msgid "Options"
@@ -75,7 +76,8 @@ msgstr "更新并添加"
 msgid ""
 "This option will add any new files and update any files which have been "
 "modified since the archive was last created/modified"
-msgstr "选中此选项将添加全部新文件，并将归档文件中已有的文件替换为它的更新版本"
+msgstr ""
+"选中此选项将添加全部新文件，并将归档文件中已有的文件替换为它的更新版本"
 
 #: ../src/add_dialog.c:108
 msgid "Freshen and replace"
@@ -728,7 +730,7 @@ msgstr "取消全部选择(_L)"
 
 #: ../src/interface.c:253
 msgid "Select _by pattern"
-msgstr "按规则选(_B)"
+msgstr "按匹配规则选(_B)"
 
 #: ../src/interface.c:264
 msgid "Cmd-line outp_ut"
@@ -1221,313 +1223,3 @@ msgstr "一个只使用 GTK+2 的归档文件管理器"
 #: ../xarchiver.desktop.in.h:2
 msgid "Archive manager"
 msgstr "归档文件管理器"
-
-#~ msgid "_Thanks to"
-#~ msgstr "感谢(_T)"
-
-#~ msgid "New"
-#~ msgstr "新建"
-
-#~ msgid "Open"
-#~ msgstr "打开"
-
-#~ msgid "Home"
-#~ msgstr "家目录"
-
-#~ msgid "Add"
-#~ msgstr "添加"
-
-#~ msgid "Stop"
-#~ msgstr "停止"
-
-#~ msgid "Can't spawn the command:"
-#~ msgstr "无法启动命令:"
-
-#~ msgid ""
-#~ "Please check \"%s\" since some files could have been already extracted."
-#~ msgstr "请检查 \"%s\" 因为某些文件可能已被解压了。"
-
-#~ msgid "Sorry, I could not perform the operation!"
-#~ msgstr "对不起，无法执行此项操作"
-
-#~ msgid "The sfx archive was saved as:"
-#~ msgstr "自解压文件保存为："
-
-#~ msgid "Directories Tree:"
-#~ msgstr "目录树:"
-
-#~ msgid "Create New Dir"
-#~ msgstr "创建新目录"
-
-#~ msgid "Can't create directory \"%s\""
-#~ msgstr "无法创建目录“%s”"
-
-#~ msgid "Do you want to view the command line output?"
-#~ msgstr "您想要查看命令行输出吗？"
-
-#~ msgid "Operation completed."
-#~ msgstr "操作已完成。"
-
-#~ msgid "Please wait while the content of the archive is being updated..."
-#~ msgstr "正在更新归档文件内容，请稍候..."
-
-#~ msgid "Operation canceled."
-#~ msgstr "操作被取消"
-
-#~ msgid "Choose Add to begin creating the archive."
-#~ msgstr "选择添加来创建归档文件"
-
-#~ msgid "Please wait while the content of the archive is being read..."
-#~ msgstr "正在读取归档文件内容，请稍候..."
-
-#~ msgid "Ready."
-#~ msgstr "就绪。"
-
-#~ msgid "Converting archive to self-extracting, please wait..."
-#~ msgstr "转换归档文件为自解压文件，请稍候..."
-
-#~ msgid "Can't open archive \"%s\":"
-#~ msgstr "无法打开归档文件“%s”:"
-
-#~ msgid "Command line output"
-#~ msgstr "命令行输出"
-
-#~ msgid "Waiting for the process to abort..."
-#~ msgstr "等待使用者中止..."
-
-#~ msgid "The password has been reset."
-#~ msgstr "密码已被重置。"
-
-#~ msgid "Please enter the password first!"
-#~ msgstr "请输入密码！"
-
-#~ msgid "Extracting files to %s"
-#~ msgstr "解压文件到 %s"
-
-#~ msgid "_View"
-#~ msgstr "查看(_V)"
-
-#~ msgid "_Show comment"
-#~ msgstr "显示注释(_S)"
-
-#~ msgid "Enter Archive Password"
-#~ msgstr "输入归档文件密码"
-
-#~ msgid "Extract..."
-#~ msgstr "解压..."
-
-#~ msgid "Archive size:"
-#~ msgstr "归档文件大小:"
-
-#~ msgid "Number of dirs:"
-#~ msgstr "目录数:"
-
-#~ msgid "Show archive comment after loading it"
-#~ msgstr "加载后显示归档文件注释"
-
-#~ msgid "An error occurred while decompressing the cpio archive."
-#~ msgstr "解压 cpio 包时发生错误。"
-
-#~ msgid "Can't write to /tmp:"
-#~ msgstr "无法写到 /tmp"
-
-#~ msgid "<b>Files and directories to add </b>"
-#~ msgstr "<b>要添加的文件和目录</b>"
-
-#~ msgid ""
-#~ "Include everything in the directory recursively \tstarting from the "
-#~ "current directory."
-#~ msgstr "包含当前目录下所有目录"
-
-#~ msgid "Do not add file paths"
-#~ msgstr "不要加入文件路径"
-
-#~ msgid "The files path doesn't include the user home directory."
-#~ msgstr "文件路径不包含用户家目录。"
-
-#~ msgid "Store just the name of a file without its directory names."
-#~ msgstr "只保存文件名，不包含文件所在目录名。"
-
-#~ msgid "Freshen an existing entry"
-#~ msgstr "刷新归档文件中己存在的项目"
-
-#~ msgid "Update an existing entry"
-#~ msgstr "更新一个归档文件中已存在的项目"
-
-#~ msgid "Please select the directories you want to add"
-#~ msgstr "请选择您要添加的目录"
-
-#~ msgid "Extracting gzip file to %s"
-#~ msgstr "解压 gzip 文件到 %s"
-
-#~ msgid "Extracting bzip2 file to %s"
-#~ msgstr "解压 bzip2 文件到 %s"
-
-#~ msgid "Decompressing tar file with %s, please wait..."
-#~ msgstr "正在使用 %s 压缩 tar 文件，请稍候..."
-
-#~ msgid "Recompressing tar file with %s, please wait..."
-#~ msgstr "正在使用 %s 压缩 tar 文件，请稍候."
-
-#~ msgid "An error occurred while trying to kill the process:"
-#~ msgstr "终止该程序时发生错误:"
-
-#~ msgid "An error occurred while extracting the file to be viewed:"
-#~ msgstr "解压文件以预览时发生错误:"
-
-#~ msgid ""
-#~ "An error occurred while converting the file content to the UTF8 encoding:"
-#~ msgstr "转换文件内容编码为 UTF8 时发生错误:"
-
-#~ msgid "Failed to open link."
-#~ msgstr "打开链接失败。"
-
-#~ msgid "Choose a folder where to extract files"
-#~ msgstr "选择存放解压文件的文件夹"
-
-#~ msgid "All"
-#~ msgstr "所有"
-
-#~ msgid "<b>Files to extract </b>"
-#~ msgstr "<b>文件解压</b>"
-
-#~ msgid "Choose the destination folder where to extract the current archive"
-#~ msgstr "选择目标文件夹解压此归档文件"
-
-#~ msgid "_File"
-#~ msgstr "文件(_F)"
-
-#~ msgid "Add files and directories to the current archive"
-#~ msgstr "添加文件和目录到此归档文件"
-
-#~ msgid "Extract files from the current archive"
-#~ msgstr "从当前归档文件中解压文件"
-
-#~ msgid "View file content in the current archive"
-#~ msgstr "查看当前归档文件中的内容"
-
-#~ msgid ""
-#~ "Extract archive to the directory specified by destination_path and quits."
-#~ msgstr "解压到指定目标路径然后退出。"
-
-#~ msgid "Behaviour"
-#~ msgstr "特性"
-
-#~ msgid "Save settings for add dialog"
-#~ msgstr "为添加对话框保存设置"
-
-#~ msgid "Save settings for extract dialog"
-#~ msgstr "为解压对话框保存设置"
-
-#~ msgid "list"
-#~ msgstr "列表"
-
-#~ msgid "icon"
-#~ msgstr "图标"
-
-#~ msgid "GUA"
-#~ msgstr "GUA"
-
-#~ msgid "BPMGS"
-#~ msgstr "BPMGS"
-
-#~ msgid "Symbolic Link"
-#~ msgstr "符号链接"
-
-#~ msgid "Please wait while the content of the ISO image is being read..."
-#~ msgstr "正在读取ISO镜像内容，请稍候..."
-
-#~ msgid " bytes"
-#~ msgstr " 字节"
-
-#~ msgid "Show ISO in_fo"
-#~ msgstr "显示 ISO 信息(_F)"
-
-#~ msgid ""
-#~ "Extract files from the current archive; use the mouse to select files "
-#~ "individually"
-#~ msgstr "从当前归档文件中解压；用鼠标选择要解压的文件"
-
-#~ msgid "SFX"
-#~ msgstr "自解压格式"
-
-#~ msgid "Make the current archive self-extracting"
-#~ msgstr "将当前归档文件转为自解压格式文件"
-
-#~ msgid "This archive contains password protected files"
-#~ msgstr "此归档文件包含受密码保护的文件"
-
-#~ msgid "Can't create directory:"
-#~ msgstr "无法创建目录:"
-
-#~ msgid "Can't write file \"%s\":"
-#~ msgstr "无法写入文件“%s”:"
-
-#~ msgid "Offset"
-#~ msgstr "偏移量"
-
-#~ msgid "Rock Ridge version %d"
-#~ msgstr "Rock Ridge 版本 %d"
-
-#~ msgid "Rock Ridge - unknown version"
-#~ msgstr "Rock Ridge - 未知版本"
-
-#~ msgid "Apple version %d"
-#~ msgstr "Apple 版本 %d"
-
-#~ msgid "Standard ISO without extension"
-#~ msgstr "标准 ISO 格式"
-
-#~ msgid "ISO Information Window"
-#~ msgstr "ISO 信息窗口"
-
-#~ msgid "Filename:"
-#~ msgstr "文件名称:"
-
-#~ msgid "Size:"
-#~ msgstr "大小:"
-
-#~ msgid "Extension:"
-#~ msgstr "格式:"
-
-#~ msgid "System ID:"
-#~ msgstr "系统 ID:"
-
-#~ msgid "Volume ID:"
-#~ msgstr "卷 ID:"
-
-#~ msgid "Publisher:"
-#~ msgstr "发布者:"
-
-#~ msgid "Preparer:"
-#~ msgstr "制作者:"
-
-#~ msgid "Creation date:"
-#~ msgstr "创建时间:"
-
-#~ msgid "Modified date:"
-#~ msgstr "修改时间:"
-
-#~ msgid "Expiration date:"
-#~ msgstr "过期时间:"
-
-#~ msgid "Effective date:"
-#~ msgstr "有效时间:"
-
-#~ msgid "Preferred format for new archives:"
-#~ msgstr "新建归档文件首选格式:"
-
-#~ msgid "Show ISO info after loading the archive"
-#~ msgstr "加载归档文件后显示 ISO 信息"
-
-#~ msgid "xfce default"
-#~ msgstr "xfce 默认"
-
-#~ msgid "internal"
-#~ msgstr "内部"
-
-#~ msgid "Checksum"
-#~ msgstr "校验值"
-
-#~ msgid "Error while extracting the cpio archive from the rpm one."
-#~ msgstr "从 rpm 包解压 cpio 包时发生错误。"
