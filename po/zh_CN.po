@@ -77,7 +77,7 @@ msgid ""
 "This option will add any new files and update any files which have been "
 "modified since the archive was last created/modified"
 msgstr ""
-"此项将添加并更新自从归档上次创建/修改后的任何新文件修改"
+"此项将添加并更新自从归档上次创建/修改后的任何新文件"
 
 #: ../src/add_dialog.c:108
 msgid "Freshen and replace"
@@ -89,30 +89,30 @@ msgid ""
 "than the version already in the archive; unlike the update option it will "
 "not add files that are not already in the archive"
 msgstr ""
-"选择此选项只将归档文件中已有的文件替换为它的更新版本。和“更新”选项的差别在于"
-"不添加新文件"
+"此项只影响修改后版本比归档中已存在版本新的归档；不像更新选项它不在"
+"归档中添加不存在的文件"
 
 #: ../src/add_dialog.c:115
 msgid "Include subdirectories"
-msgstr "包含子目录"
+msgstr "包括子目录"
 
 #: ../src/add_dialog.c:119
 msgid "Create a solid archive"
-msgstr "新建固实归档文件"
+msgstr "创建一体化归档"
 
 #: ../src/add_dialog.c:121
 msgid ""
 "In a solid archive the files are grouped together featuring a better "
 "compression ratio"
-msgstr "固实归档文件中文件重新编组，因而有更高的压缩率。"
+msgstr "在一体化归档中文件集结在一起得到更高的压缩率。"
 
 #: ../src/add_dialog.c:124
 msgid "Delete files after adding"
-msgstr "添加后删除原文件"
+msgstr "添加后删除文件"
 
 #: ../src/add_dialog.c:128
 msgid "Actions: "
-msgstr "动作"
+msgstr "动作："
 
 #: ../src/add_dialog.c:143
 msgid "Compression: "
@@ -124,7 +124,7 @@ msgstr "密码："
 
 #: ../src/add_dialog.c:167
 msgid "Encryption: "
-msgstr "加密方式："
+msgstr "加密："
 
 #: ../src/add_dialog.c:180
 msgid "_Add"
@@ -132,27 +132,27 @@ msgstr "添加(_A)"
 
 #: ../src/add_dialog.c:247
 msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
-msgstr "0 = 不压缩；5 = 默认压缩率；9 = 最高压缩率但压缩最慢 "
+msgstr "0 为不压缩；5 为默认压缩率；9 为最高压缩率但最慢"
 
 #: ../src/add_dialog.c:253
 msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
-msgstr "0 = 不压缩；6 = 默认压缩率；9 = 最高压缩率但压缩最慢 "
+msgstr "0 为不压缩；6 为默认压缩率；9 为最高压缩率但最慢"
 
 #: ../src/add_dialog.c:259
 msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
-msgstr "0 = 不压缩；3 = 默认压缩率；5 = 最高压缩率但压缩最慢 "
+msgstr "0 为不压缩；3 为默认压缩率；5 为最高压缩率但最慢"
 
 #: ../src/add_dialog.c:265
 msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
-msgstr "0 = 不压缩；1 = 默认压缩率；4 = 最快速压缩但压缩率最低 "
+msgstr "0 为不压缩；1 为默认压缩率；4 为最快但压缩率最低"
 
 #: ../src/add_dialog.c:271
 msgid "5 = default compression, 7 = max compression"
-msgstr "5 = 默认压缩率, 7 = 最高压缩率"
+msgstr "5 为默认压缩率，7 为最高压缩率"
 
 #: ../src/add_dialog.c:371 ../src/main.c:228
 msgid "Can't add files to the archive:"
-msgstr "无法添加文件到归档文件:"
+msgstr "无法在归档中添加文件："
 
 #: ../src/add_dialog.c:371
 msgid "You haven't selected any files to add!"
@@ -168,15 +168,15 @@ msgstr "请输入！"
 
 #: ../src/add_dialog.c:449
 msgid "Adding files to archive, please wait..."
-msgstr "正在添加文件到归档文件中，请稍候..."
+msgstr "正在向归档中添加文件，请等待..."
 
 #: ../src/archive.c:87
 msgid "Can't run the archiver executable:"
-msgstr "无法运行压缩程序："
+msgstr "未能运行可执行的归档管理器："
 
 #: ../src/archive.c:373
 msgid "Can't create temporary directory:"
-msgstr "无法创建临时目录:"
+msgstr "未能创建临时目录："
 
 #: ../src/arj.c:48 ../src/gzip.c:78 ../src/lha.c:51 ../src/rar.c:63
 msgid "Ratio"
@@ -212,65 +212,65 @@ msgstr "发生错误！"
 
 #: ../src/window.c:60
 msgid "Please check the 'Store archiver output' option to see it."
-msgstr "选了“保存压缩程序输出”选项才能看到"
+msgstr "请检查 ‘储存归档管理器输出’ 选项看看。"
 
 #: ../src/window.c:147
 msgid "Archiver output"
-msgstr "压缩程序输出"
+msgstr "归档管理器输出"
 
 #: ../src/window.c:182
 msgid "An error occurred while accessing the archive:"
-msgstr "访问归档文件时发生一个错误:"
+msgstr "访问归档时出错："
 
 #: ../src/window.c:254
 msgid "Save the archive as"
-msgstr "另存归档文件为"
+msgstr "归档另存为"
 
 #: ../src/window.c:313
 #, c-format
 msgid "Can't open file \"%s\":"
-msgstr "无法打开文件“%s”:"
+msgstr "未能打开文件 “%s”："
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
-msgstr "无法识别归档文件格式！"
+msgstr "无法识别归档格式！"
 
 #: ../src/window.c:339
 msgid "Sorry,this archive format is not supported:"
-msgstr "对不起，不支持此归档文件格式:"
+msgstr "对不起，不支持此归档格式："
 
 #: ../src/window.c:339
 msgid "the proper archiver is not installed!"
-msgstr "相应的归档程序没有安装！"
+msgstr "未安装合适的归档管理器！"
 
 #: ../src/window.c:353
 msgid "Can't allocate memory for the archive structure:"
-msgstr "无法为归档文件分配内存:"
+msgstr "未能为归档结构分配内存："
 
 #: ../src/window.c:353
 msgid "Operation aborted!"
-msgstr "操作被中止！"
+msgstr "操作已中止！"
 
 #: ../src/window.c:378
 msgid "Opening archive,please wait..."
-msgstr "正在打开归档文件，请稍候..."
+msgstr "正在打开归档，请等待..."
 
 #: ../src/window.c:402
 msgid "Testing archive,please wait..."
-msgstr "正在测试归档文件，请稍候..."
+msgstr "正在测试归档，请等待..."
 
 #: ../src/window.c:422
 msgid "Print the archive content as HTML"
-msgstr "以 HTML 方式查看归档文件内容"
+msgstr "以 HTML 方式查看归档内容"
 
 #: ../src/window.c:424
 msgid "Print the archive content as text"
-msgstr "以文本方式查看归档文件内容"
+msgstr "以文本方式查看归档内容"
 
 #: ../src/window.c:475
 #, c-format
 msgid "Archive contents:\n"
-msgstr "归档文件内容:\n"
+msgstr "归档内容：\n"
 
 #: ../src/window.c:479
 #, c-format
@@ -279,7 +279,7 @@ msgid ""
 "Name: "
 msgstr ""
 "\n"
-"名称: "
+"名称："
 
 #: ../src/window.c:488
 #, c-format
@@ -322,11 +322,11 @@ msgstr "<th>压缩后：</th>"
 
 #: ../src/window.c:617 ../src/main.c:276
 msgid "Select \"New\" to create or \"Open\" to open an archive"
-msgstr "选择“新建”来创建，或者“打开”来打开归档文件"
+msgstr "选择 “新建” 创建或 “打开” 打开归档"
 
 #: ../src/window.c:722
 msgid "You are about to delete entries from the archive."
-msgstr "你正要从归档文件中删除项目。"
+msgstr "你即将从归档中删除条目。"
 
 #: ../src/window.c:722
 msgid "Are you sure you want to do this?"
@@ -334,11 +334,11 @@ msgstr "您确定要这样做吗？"
 
 #: ../src/window.c:815 ../src/window.c:915
 msgid "Can't convert the archive to self-extracting:"
-msgstr "无法转换归档文件为自解压文件："
+msgstr "未能将归档转换为自解压文件："
 
 #: ../src/window.c:826 ../src/window.c:926
 msgid "Can't write the unzipsfx module to the archive:"
-msgstr "无法将 unzipsfx 模块添加到归档文件:"
+msgstr "未能在归档中写入 unzipsfx 模块："
 
 #: ../src/window.c:886
 msgid "Please select the 7zCon.sfx module"
@@ -346,23 +346,24 @@ msgstr "请选择 7zCon.sfx 模块"
 
 #: ../src/window.c:980
 msgid "A GTK+2 only lightweight archive manager"
-msgstr "一个使用 GTK+2 的轻量级归档文件管理器"
+msgstr "仅使用 GTK+2 的轻量级归档管理器"
 
 #: ../src/window.c:983
 msgid "translator-credits"
 msgstr ""
-"wuli <wurisky@gmail.com>, 2007\n"
-"Chris K. Zhang <plutino@gmail.com>, 2009\n"
-"Aron Xu <aronmalache@163.com>, 2009\n"
-"Hunt Xu <huntxu@live.cn>, 2009"
+"wuli <wurisky@gmail.com>, 2007.\n"
+"Chris K. Zhang <plutino@gmail.com>, 2009.\n"
+"Aron Xu <aronmalache@163.com>, 2009.\n"
+"Hunt Xu <huntxu@live.cn>, 2009.\n"
+"Chipong Luo <chipong_l@yahoo.com>, 2011."
 
 #: ../src/window.c:1013
 msgid "Save the self-extracting archive as"
-msgstr "保存自解压文件到"
+msgstr "自解压归档另存为"
 
 #: ../src/window.c:1042 ../src/interface.c:340
 msgid "Open an archive"
-msgstr "打开归档文件"
+msgstr "打开归档"
 
 #: ../src/window.c:1055 ../src/extract_dialog.c:90 ../src/new_dialog.c:62
 msgid "All files"
@@ -370,15 +371,15 @@ msgstr "所有文件"
 
 #: ../src/window.c:1060 ../src/new_dialog.c:67
 msgid "Only archives"
-msgstr "只显示归档文件"
+msgstr "仅归档"
 
 #: ../src/window.c:1274
 msgid "Filename"
-msgstr "文件名称"
+msgstr "文件名"
 
 #: ../src/window.c:1331
 msgid "Doing so will probably corrupt your archive!"
-msgstr "这样做可能会破坏您的归档文件！"
+msgstr "这样做可能会破坏您的归档！"
 
 #: ../src/window.c:1331
 msgid "Do you really want to cancel?"
@@ -394,32 +395,32 @@ msgstr "否"
 
 #: ../src/window.c:1614
 msgid "selected"
-msgstr "已选的"
+msgstr "选中的"
 
 #: ../src/window.c:1619
 #, c-format
 msgid "%d file and %d dir %s (%s)"
 msgid_plural "%d files and %d dirs %s (%s)"
-msgstr[0] "%d 个文件和 %d 个目录 %s（%s）"
-msgstr[1] "%d 个文件和 %d 个目录 %s（%s）"
+msgstr[0] "%d 个文件和 %d 个目录 %s (%s)"
+msgstr[1] "%d 个文件和 %d 个目录 %s (%s)"
 
 #: ../src/window.c:1621
 #, c-format
 msgid "%d dir %s (%s)"
 msgid_plural "%d dirs %s (%s)"
-msgstr[0] "%d 个目录 %s（%s）"
-msgstr[1] "%d 个目录 %s（%s）"
+msgstr[0] "%d 个目录 %s (%s)"
+msgstr[1] "%d 个目录 %s (%s)"
 
 #: ../src/window.c:1624
 #, c-format
 msgid "%d file %s (%s)"
 msgid_plural "%d files %s (%s)"
-msgstr[0] "%d 个文件 %s（%s）"
-msgstr[1] "%d 个文件 %s（%s）"
+msgstr[0] "%d 个文件 %s (%s)"
+msgstr[1] "%d 个文件 %s (%s)"
 
 #: ../src/window.c:1680
 msgid "Can't perform another extraction:"
-msgstr "无法进行另一个解压操作:"
+msgstr "未能执行另一个解压："
 
 #: ../src/window.c:1680
 msgid "Please wait until the completion of the current one!"
@@ -430,39 +431,39 @@ msgstr "请等到当前操作完成！"
 msgid ""
 "You don't have the right permissions to extract the files to the directory "
 "\"%s\"."
-msgstr "您没有权限解压文件到目录“%s”。"
+msgstr "您没有合适的权限将文件解压至此目录 “%s”。"
 
 #: ../src/window.c:1714 ../src/extract_dialog.c:342
 msgid "Can't perform extraction!"
-msgstr "无法执行解压操作！"
+msgstr "未能执行解压！"
 
 #: ../src/window.c:1755 ../src/extract_dialog.c:650 ../src/interface.c:1392
 msgid "Sorry,I could not perform the operation!"
-msgstr "对不起，无法执行此项操作！"
+msgstr "对不起，我不能执行此操作！"
 
 #: ../src/window.c:1789 ../src/window.c:1801 ../src/interface.c:1385
 msgid "Can't perform this action:"
-msgstr "无法进行这个动作："
+msgstr "未能执行此动作："
 
 #: ../src/window.c:1789
 msgid "You have to install rar package!"
-msgstr "需要安装 rar 程序包"
+msgstr "您必须安装 rar 软件包！"
 
 #: ../src/window.c:1796 ../src/interface.c:1382
 msgid "You can't add content to deb packages!"
-msgstr "您不能添加内容到 deb 包！"
+msgstr "您不能在 deb 软件包中添加内容！"
 
 #: ../src/window.c:1798 ../src/interface.c:1384
 msgid "You can't add content to rpm packages!"
-msgstr "您不能添加内容到 rpm 包！"
+msgstr "您不能在 rpm 软件包中添加内容！"
 
 #: ../src/window.c:1800
 msgid "The archiver doesn't support this feature!"
-msgstr "归档程序不支持此项功能！"
+msgstr "归档管理器不支持此功能！"
 
 #: ../src/window.c:1881
 msgid "You didn't set which browser to use!"
-msgstr "您没有设置网络浏览器"
+msgstr "您没有设置要使用哪个浏览器！"
 
 #: ../src/window.c:1881 ../src/window.c:1922
 msgid "Please go to Preferences->Advanced and set it."
@@ -470,23 +471,23 @@ msgstr "请到首选设置->高级进行设置。"
 
 #: ../src/window.c:1913
 msgid "This file type is not supported!"
-msgstr "此文件类型不被支持！"
+msgstr "不支持此文件类型！"
 
 #: ../src/window.c:1913
 msgid "Please install xdg-utils package."
-msgstr "请安装 xdg-util 程序包。"
+msgstr "请安装 xdg-util 软件包。"
 
 #: ../src/window.c:1922
 msgid "You didn't set which program to use for opening this file!"
-msgstr "您没有设置用于打开本文件的程序！"
+msgstr "您没有设置用哪个程序打开此文件！"
 
 #: ../src/window.c:1948
 msgid "Failed to launch the application!"
-msgstr "无法启动程序！"
+msgstr "无法启动此应用程序！"
 
 #: ../src/window.c:2000
 msgid "Comment"
-msgstr "备注"
+msgstr "注释"
 
 #: ../src/window.c:2030
 msgid "From File"
@@ -499,7 +500,7 @@ msgstr "打开文本文件"
 #: ../src/window.c:2153
 #, c-format
 msgid "Can't open file %s:"
-msgstr "无法打开文件“%s”:"
+msgstr "未能打开文件 %s："
 
 #: ../src/deb.c:45
 msgid "Date modified"
@@ -507,11 +508,11 @@ msgstr "日期已修改"
 
 #: ../src/extract_dialog.c:64 ../src/extract_dialog.c:468
 msgid "Extract to:"
-msgstr "解压到:"
+msgstr "解压到："
 
 #: ../src/extract_dialog.c:94
 msgid "Selected files"
-msgstr "所选文件"
+msgstr "选中的文件"
 
 #: ../src/extract_dialog.c:101
 msgid "Files: "
@@ -523,7 +524,7 @@ msgstr "文件 "
 
 #: ../src/extract_dialog.c:125 ../src/extract_dialog.c:495
 msgid "Overwrite existing files"
-msgstr "覆盖已存在文件"
+msgstr "覆盖已存在的文件"
 
 #: ../src/extract_dialog.c:128
 msgid "Extract files with full path"
@@ -532,7 +533,7 @@ msgstr "以完整路径解压文件"
 #: ../src/extract_dialog.c:129
 msgid ""
 "The archive's directory structure is recreated in the extraction directory"
-msgstr "在解压目录中重建归档文件的目录结构"
+msgstr "在解压目录中重新创建归档的目录结构"
 
 #: ../src/extract_dialog.c:132
 msgid "Touch files"
@@ -544,22 +545,22 @@ msgid ""
 "it extracts as the times when the files were extracted,instead of setting it "
 "to the times recorded in the archive"
 msgstr ""
-"使用此选项后，tar 会将所解压的文件的修改时间设为解压时的时间，\n"
-"而不是该文件原本记录的时间。"
+"使用此项后，tar 会将所解压的文件的修改时间设为解压时的时间，"
+"而不是设为在归档中记录的时间。"
 
 #: ../src/extract_dialog.c:136
 msgid "Freshen existing files"
-msgstr "刷新已存在文件"
+msgstr "刷新已存在的文件"
 
 #: ../src/extract_dialog.c:137
 msgid ""
 "Extract only those files that already exist on disk and that are newer than "
 "the disk copies"
-msgstr "只解压硬盘已存在的且比其更新的文件"
+msgstr "只解压硬盘上已存在的且比其硬盘复更新的那些文件"
 
 #: ../src/extract_dialog.c:141
 msgid "Update existing files"
-msgstr "更新已存在文件"
+msgstr "更新已存在的文件"
 
 #: ../src/extract_dialog.c:142
 msgid ""
