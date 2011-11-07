@@ -89,8 +89,8 @@ msgid ""
 "than the version already in the archive; unlike the update option it will "
 "not add files that are not already in the archive"
 msgstr ""
-"此项只影响修改后版本比归档中已存在版本新的归档；不像更新选项它不在"
-"归档中添加不存在的文件"
+"此项只影响修改后版本比归档文件中已存在版本新的归档文件；不像更新选项"
+"它不在归档文件中添加不存在的文件"
 
 #: ../src/add_dialog.c:115
 msgid "Include subdirectories"
@@ -98,13 +98,13 @@ msgstr "包括子目录"
 
 #: ../src/add_dialog.c:119
 msgid "Create a solid archive"
-msgstr "创建一体化归档"
+msgstr "创建一体化归档文件"
 
 #: ../src/add_dialog.c:121
 msgid ""
 "In a solid archive the files are grouped together featuring a better "
 "compression ratio"
-msgstr "在一体化归档中文件集结在一起得到更高的压缩率。"
+msgstr "在一体化归档文件中文件集结在一起得到更高的压缩率。"
 
 #: ../src/add_dialog.c:124
 msgid "Delete files after adding"
@@ -152,7 +152,7 @@ msgstr "5 为默认压缩率，7 为最高压缩率"
 
 #: ../src/add_dialog.c:371 ../src/main.c:228
 msgid "Can't add files to the archive:"
-msgstr "无法在归档中添加文件："
+msgstr "无法在归档文件中添加文件："
 
 #: ../src/add_dialog.c:371
 msgid "You haven't selected any files to add!"
@@ -168,11 +168,11 @@ msgstr "请输入！"
 
 #: ../src/add_dialog.c:449
 msgid "Adding files to archive, please wait..."
-msgstr "正在向归档中添加文件，请等待..."
+msgstr "正在向归档文件中添加文件，请等待..."
 
 #: ../src/archive.c:87
 msgid "Can't run the archiver executable:"
-msgstr "未能运行可执行的归档管理器："
+msgstr "未能运行可执行的归档文件管理器："
 
 #: ../src/archive.c:373
 msgid "Can't create temporary directory:"
@@ -212,19 +212,19 @@ msgstr "发生错误！"
 
 #: ../src/window.c:60
 msgid "Please check the 'Store archiver output' option to see it."
-msgstr "请检查 ‘储存归档管理器输出’ 选项看看。"
+msgstr "请检查 ‘储存归档文件管理器输出’ 选项看看。"
 
 #: ../src/window.c:147
 msgid "Archiver output"
-msgstr "归档管理器输出"
+msgstr "归档文件管理器输出"
 
 #: ../src/window.c:182
 msgid "An error occurred while accessing the archive:"
-msgstr "访问归档时出错："
+msgstr "访问归档文件时出错："
 
 #: ../src/window.c:254
 msgid "Save the archive as"
-msgstr "归档另存为"
+msgstr "归档文件另存为"
 
 #: ../src/window.c:313
 #, c-format
@@ -233,19 +233,19 @@ msgstr "未能打开文件 “%s”："
 
 #: ../src/window.c:315
 msgid "Archive format is not recognized!"
-msgstr "无法识别归档格式！"
+msgstr "无法识别归档文件格式！"
 
 #: ../src/window.c:339
 msgid "Sorry,this archive format is not supported:"
-msgstr "对不起，不支持此归档格式："
+msgstr "对不起，不支持此归档文件格式："
 
 #: ../src/window.c:339
 msgid "the proper archiver is not installed!"
-msgstr "未安装合适的归档管理器！"
+msgstr "未安装合适的归档文件管理器！"
 
 #: ../src/window.c:353
 msgid "Can't allocate memory for the archive structure:"
-msgstr "未能为归档结构分配内存："
+msgstr "未能为归档文件结构分配内存："
 
 #: ../src/window.c:353
 msgid "Operation aborted!"
@@ -253,24 +253,24 @@ msgstr "操作已中止！"
 
 #: ../src/window.c:378
 msgid "Opening archive,please wait..."
-msgstr "正在打开归档，请等待..."
+msgstr "正在打开归档文件，请等待..."
 
 #: ../src/window.c:402
 msgid "Testing archive,please wait..."
-msgstr "正在测试归档，请等待..."
+msgstr "正在测试归档文件，请等待..."
 
 #: ../src/window.c:422
 msgid "Print the archive content as HTML"
-msgstr "以 HTML 方式查看归档内容"
+msgstr "以 HTML 方式查看归档文件内容"
 
 #: ../src/window.c:424
 msgid "Print the archive content as text"
-msgstr "以文本方式查看归档内容"
+msgstr "以文本方式查看归档文件内容"
 
 #: ../src/window.c:475
 #, c-format
 msgid "Archive contents:\n"
-msgstr "归档内容：\n"
+msgstr "归档文件内容：\n"
 
 #: ../src/window.c:479
 #, c-format
@@ -322,11 +322,11 @@ msgstr "<th>压缩后：</th>"
 
 #: ../src/window.c:617 ../src/main.c:276
 msgid "Select \"New\" to create or \"Open\" to open an archive"
-msgstr "选择 “新建” 创建或 “打开” 打开归档"
+msgstr "选择 “新建” 创建或 “打开” 打开归档文件"
 
 #: ../src/window.c:722
 msgid "You are about to delete entries from the archive."
-msgstr "你即将从归档中删除条目。"
+msgstr "你即将从归档文件中删除条目。"
 
 #: ../src/window.c:722
 msgid "Are you sure you want to do this?"
@@ -334,11 +334,11 @@ msgstr "您确定要这样做吗？"
 
 #: ../src/window.c:815 ../src/window.c:915
 msgid "Can't convert the archive to self-extracting:"
-msgstr "未能将归档转换为自解压文件："
+msgstr "未能将归档文件转换为自解压文件："
 
 #: ../src/window.c:826 ../src/window.c:926
 msgid "Can't write the unzipsfx module to the archive:"
-msgstr "未能在归档中写入 unzipsfx 模块："
+msgstr "未能在归档文件中写入 unzipsfx 模块："
 
 #: ../src/window.c:886
 msgid "Please select the 7zCon.sfx module"
@@ -346,7 +346,7 @@ msgstr "请选择 7zCon.sfx 模块"
 
 #: ../src/window.c:980
 msgid "A GTK+2 only lightweight archive manager"
-msgstr "仅使用 GTK+2 的轻量级归档管理器"
+msgstr "仅使用 GTK+2 的轻量级归档文件管理器"
 
 #: ../src/window.c:983
 msgid "translator-credits"
@@ -359,11 +359,11 @@ msgstr ""
 
 #: ../src/window.c:1013
 msgid "Save the self-extracting archive as"
-msgstr "自解压归档另存为"
+msgstr "自解压归档文件另存为"
 
 #: ../src/window.c:1042 ../src/interface.c:340
 msgid "Open an archive"
-msgstr "打开归档"
+msgstr "打开归档文件文件"
 
 #: ../src/window.c:1055 ../src/extract_dialog.c:90 ../src/new_dialog.c:62
 msgid "All files"
@@ -371,7 +371,7 @@ msgstr "所有文件"
 
 #: ../src/window.c:1060 ../src/new_dialog.c:67
 msgid "Only archives"
-msgstr "仅归档"
+msgstr "仅归档文件"
 
 #: ../src/window.c:1274
 msgid "Filename"
@@ -379,7 +379,7 @@ msgstr "文件名"
 
 #: ../src/window.c:1331
 msgid "Doing so will probably corrupt your archive!"
-msgstr "这样做可能会破坏您的归档！"
+msgstr "这样做可能会破坏您的归档文件！"
 
 #: ../src/window.c:1331
 msgid "Do you really want to cancel?"
@@ -533,7 +533,7 @@ msgstr "以完整路径解压文件"
 #: ../src/extract_dialog.c:129
 msgid ""
 "The archive's directory structure is recreated in the extraction directory"
-msgstr "在解压目录中重新创建归档的目录结构"
+msgstr "在解压目录中重新创建归档文件的目录结构"
 
 #: ../src/extract_dialog.c:132
 msgid "Touch files"
@@ -568,7 +568,7 @@ msgid ""
 "that are newer than those with the same name on disk,and in addition it "
 "extracts those files that do not already exist on disk"
 msgstr ""
-"和“刷新”一样，这个选项会解压更新的文件，除此之外，还会将硬盘上原来没有的文件"
+"此项和刷新执行相同的功能，，除此之外，还会将硬盘上原来没有的文件"
 "解压出来。"
 
 #: ../src/extract_dialog.c:146
