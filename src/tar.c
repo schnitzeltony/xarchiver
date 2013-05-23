@@ -389,6 +389,25 @@ gboolean xa_tar_extract(XArchive *archive,GSList *files)
 		}
 		break;
 
+		case XARCHIVETYPE_TAR_XZ:
+		if (archive->full_path == 1)
+		{
+			command = g_strconcat (tar, " --use-compress-program=xz -xvf " , archive->escaped_path,
+						#ifdef __FreeBSD__
+								archive->overwrite ? " " : " -k",
+						#else
+								archive->overwrite ? " --overwrite" : " --keep-old-files",
+						#endif
+								archive->tar_touch ? " --touch" : "",
+								" -C ",archive->extraction_path," ",names->str,NULL);
+		}
+		else
+		{
+			result = xa_extract_tar_without_directories ( "tar --use-compress-program=xz -xvf ",archive,names->str);
+			command = NULL;
+		}
+		break;
+
 		case XARCHIVETYPE_TAR_LZOP:
 		if (archive->full_path == 1)
 		{
@@ -409,6 +428,11 @@ gboolean xa_tar_extract(XArchive *archive,GSList *files)
 		break;
 
 		case XARCHIVETYPE_LZMA:
+		result = lzma_bzip2_extract(archive,NULL);
+		command = NULL;
+		break;
+
+		case XARCHIVETYPE_XZ:
 		result = lzma_bzip2_extract(archive,NULL);
 		command = NULL;
 		break;
