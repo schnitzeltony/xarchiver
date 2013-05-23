@@ -242,6 +242,17 @@ void xa_tar_add (XArchive *archive,GString *files,gchar *compression_string)
 									files->str , NULL );
 		break;
 		
+		case XARCHIVETYPE_TAR_XZ:
+		if ( g_file_test ( archive->escaped_path , G_FILE_TEST_EXISTS ) )
+			xa_add_delete_bzip2_gzip_lzma_compressed_tar (files,archive,1);
+		else
+			command = g_strconcat (tar, " ",
+									archive->add_recurse ? "" : "--no-recursion ",
+									archive->remove_files ? "--remove-files " : "",
+									"--use-compress-program=xz -cvvf ",archive->escaped_path,
+									files->str , NULL );
+		break;
+		
 		case XARCHIVETYPE_TAR_LZOP:
 		if ( g_file_test ( archive->escaped_path , G_FILE_TEST_EXISTS ) )
 			xa_add_delete_bzip2_gzip_lzma_compressed_tar (files,archive,1);
@@ -448,6 +459,10 @@ void xa_add_delete_bzip2_gzip_lzma_compressed_tar (GString *files,XArchive *arch
 		case XARCHIVETYPE_TAR_LZMA:
 			executable = "lzma -f ";
 			filename = "dummy.lzma";
+		break;
+		case XARCHIVETYPE_TAR_XZ:
+			executable = "xz -f ";
+			filename = "dummy.xz";
 		break;
 		case XARCHIVETYPE_TAR_LZOP:
 			executable = "lzop -f ";

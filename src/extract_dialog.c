@@ -810,6 +810,11 @@ static gchar *xa_multi_extract_archive(Multi_extract_data *dialog,gchar *filenam
 		archive->type = XARCHIVETYPE_TAR_LZMA;
 		archive->extract = 	extract[XARCHIVETYPE_TAR_LZMA];
 	}
+	else if (g_str_has_suffix(archive->escaped_path,".tar.xz")|| g_str_has_suffix (archive->escaped_path,".txz"))
+	{
+		archive->type = XARCHIVETYPE_TAR_XZ;
+		archive->extract = 	extract[XARCHIVETYPE_TAR_XZ];
+	}
 	else if (g_str_has_suffix(archive->escaped_path,".tar.lzop") ||
 			g_str_has_suffix (archive->escaped_path,".tzo") ||
 			g_str_has_suffix(archive->escaped_path,".tar.lzo"))

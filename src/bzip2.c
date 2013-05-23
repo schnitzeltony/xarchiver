@@ -54,6 +54,15 @@ void xa_open_bzip2_lzma (XArchive *archive)
 		archive->extract = 	extract[archive->type];
 		xa_open_tar_compressed_file(archive);
 	}
+	else if (g_str_has_suffix(archive->escaped_path,".tar.xz") || g_str_has_suffix (archive->escaped_path,".txz"))
+	{
+		archive->type = XARCHIVETYPE_TAR_XZ;
+		archive->format = "TAR.XZ";
+		archive->delete =	delete[archive->type];
+		archive->add = 		add[archive->type];
+		archive->extract = 	extract[archive->type];
+		xa_open_tar_compressed_file(archive);
+	}
 	else if (g_str_has_suffix(archive->escaped_path,".tar.lzop") ||
 		g_str_has_suffix (archive->escaped_path,".tzo") ||
 		g_str_has_suffix(archive->escaped_path,".tar.lzo"))
@@ -83,6 +92,12 @@ void xa_open_bzip2_lzma (XArchive *archive)
 		{
 			archive->format = "LZMA";
 			executable = "lzma ";
+			len = 5;
+		}
+		else if (archive->type == XARCHIVETYPE_XZ)
+		{
+			archive->format = "XZ";
+			executable = "xz ";
 			len = 5;
 		}
 		else if (archive->type == XARCHIVETYPE_LZOP)
@@ -163,6 +178,8 @@ void xa_open_tar_compressed_file(XArchive *archive)
 		command = g_strconcat(tar," tfjv ",archive->escaped_path,NULL);
 	else if (archive->type == XARCHIVETYPE_TAR_LZMA)
 		command = g_strconcat(tar," tv --use-compress-program=lzma -f ",archive->escaped_path,NULL);
+	else if (archive->type == XARCHIVETYPE_TAR_XZ)
+		command = g_strconcat(tar," tv --use-compress-program=xz -f ",archive->escaped_path,NULL);
 	else if (archive->type == XARCHIVETYPE_TAR_LZOP)
 		command = g_strconcat(tar," tv --use-compress-program=lzop -f ",archive->escaped_path,NULL);
 	/* else fail? */
@@ -203,6 +220,11 @@ gboolean lzma_bzip2_extract (XArchive *archive,GSList *dummy)
 	else if (archive->type == XARCHIVETYPE_LZMA)
 	{
 		executable = "lzma ";
+		len = 5;
+	}
+	else if (archive->type == XARCHIVETYPE_XZ)
+	{
+		executable = "xz ";
 		len = 5;
 	}
 	else if (archive->type == XARCHIVETYPE_LZOP)
