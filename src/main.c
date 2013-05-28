@@ -358,6 +358,7 @@ void xa_set_available_archivers()
 	extract[XARCHIVETYPE_ZIP] = &xa_zip_extract;
 	extract[XARCHIVETYPE_LHA] = &xa_lha_extract;
 	extract[XARCHIVETYPE_LZOP] = &xa_tar_extract;
+	extract[XARCHIVETYPE_XZ] = &xa_tar_extract;
 	
 	test[0]  = 0;
 	test[XARCHIVETYPE_7ZIP]  = &xa_7zip_test;
