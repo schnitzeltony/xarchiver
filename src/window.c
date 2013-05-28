@@ -1158,10 +1158,11 @@ gboolean xa_detect_archive_comment (int type,gchar *filename,XArchive *archive)
 	unsigned short int len = 0;
 	int eof;
 	size_t seqptr = 0;
+	gboolean returnval = FALSE;
 
 	stream = fopen (filename,"r");
 	if (stream == NULL)
-		return FALSE;
+		return returnval;
 
 	if (type == XARCHIVETYPE_ZIP)
 	{
@@ -1190,9 +1191,7 @@ gboolean xa_detect_archive_comment (int type,gchar *filename,XArchive *archive)
 		}
 		fseek (stream,eocds_position,SEEK_SET);
 		fread (&len,1,2,stream);
-		if (len == 0)
-			return FALSE;
-		else
+		if (len != 0)
 		{
 			archive->comment = g_string_new("");
 			while (cmt_len != len)
@@ -1201,7 +1200,7 @@ gboolean xa_detect_archive_comment (int type,gchar *filename,XArchive *archive)
 				g_string_append_c (archive->comment,sig);
 				cmt_len++;
 			}
-			return TRUE;
+			returnval = TRUE;
 		}
 	}
 	else if (type == XARCHIVETYPE_ARJ)
@@ -1217,7 +1216,8 @@ gboolean xa_detect_archive_comment (int type,gchar *filename,XArchive *archive)
 		sig = 1;
 		/* Let's read the archive comment byte after byte now */
 		archive->comment = g_string_new("");
-		while (sig != 0)
+		returnval = TRUE;
+		while (sig != 0 && returnval)
 		{
 			fread (&sig,1,1,stream);
 
@@ -1225,14 +1225,14 @@ gboolean xa_detect_archive_comment (int type,gchar *filename,XArchive *archive)
 			{
 				g_string_free (archive->comment,FALSE);
 				archive->comment = NULL;
-				return FALSE;
+				returnval = FALSE;
 			}
 			else
 				g_string_append_c (archive->comment,sig);
 		}
-		return TRUE;
 	}
-	return FALSE;
+	fclose ( stream );
+	return returnval;
 }
 
 void xa_remove_columns(XArchive *archive)
