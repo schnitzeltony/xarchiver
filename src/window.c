@@ -1128,7 +1128,7 @@ XArchiveType xa_detect_archive_type (gchar *filename)
 		xx = XARCHIVETYPE_GZIP;
 	else if (memcmp ( magic,"\x5d\x00\x00\x80",4) == 0)
 		xx = XARCHIVETYPE_LZMA;
-	else if (memcmp ( magic,"\xFD7zXZ\x00\0x00",3) || memcmp ( magic, "\xFD7zXZ\x00\0x10",3) == 0)
+	else if (memcmp ( magic,"\xFD7zXZ\x00",6))
 		xx = XARCHIVETYPE_XZ;
 	else if (memcmp ( magic,"\211LZO",4) == 0)
 		xx = XARCHIVETYPE_LZOP;
